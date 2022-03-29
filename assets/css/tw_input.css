@@ -1,0 +1,50 @@
+/* DO NOT FORMAT(BEAUTIFY) THIS FILE! */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.textarea {
+    min-height: 40px;
+}
+
+.small-light {
+    background-color: #fff !important;
+    box-shadow: 0 0 4px #ffffff !important;
+}
+
+.key-down {
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
+    transform: translateY(4px);
+}
+
+.key-shadow {
+    box-shadow: 0 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.key-shadow:hover {
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
+    transform: translateY(4px);
+    transition: all 0.1s;
+}
+
+.double-keys span:first-of-type {
+    margin-right: auto;
+}
+
+.double-keys span:last-of-type {
+    margin-left: auto;
+}
+
+@layer components {
+    .small-keys {
+        @apply w-[67px] rounded py-1 cursor-pointer bg-[#353535] flex justify-around items-center border-none key-shadow;
+    }
+
+    .normal-keys {
+        @apply h-[67px] w-[67px] rounded py-1 cursor-pointer bg-[#353535] flex justify-around items-center border-none key-shadow;
+    }
+
+    .double-keys {
+        @apply flex-col p-4 text-xl
+    }
+}
