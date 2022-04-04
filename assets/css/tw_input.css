@@ -41,10 +41,14 @@
     }
 
     .normal-keys {
-        @apply h-[67px] w-[67px] rounded py-1 cursor-pointer bg-[#353535] flex justify-around items-center border-none key-shadow;
+        @apply h-[50px] w-[50px] rounded py-1 cursor-pointer bg-[#353535] flex justify-around items-center border-none md:h-[57px] md:w-[57px] 2xl:h-[67px] 2xl:w-[67px] key-shadow;
     }
 
     .double-keys {
-        @apply flex-col p-4 text-xl
+        @apply flex-col px-2 py-px text-xl;
+    }
+
+    .key {
+        @apply text-base lg:text-lg 2xl:text-xl;
     }
 }
