@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-	content: ['./index.html', './assets/main.js'],
+	content: ['./index.html', './assets/js/main.js', './assets/js/keyboard.js'],
 	theme: {
 		extend: {
 			screens: {
