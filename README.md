@@ -20,16 +20,16 @@ Virtual Keyboard gives you an awesome virtual-typing experience!
 
 <ul>
   <li>Semantic, clean, and extendable code</li>
-  <li>Input validation with <code>pattern</code> attribute</li>
   <li>Dark Mode</li>
   <li>Typing Sound Effect</li>
   <li>Sound Control</li>
   <li>Virtual Typing Effect</li>
+  <li>Dynamically-Generated Keyboard Keys</li>
 </ul>
 
 ## How it works
 
-Just start typing on your keyboard and watch the flow of your fingers on the virtual keyboard. Alternatively, you can try typing by directly clicking on the keys. Both ways play a typing sound effect in the background to make it more realistic. 
+Just start typing on your keyboard and watch the flow of your fingers on the virtual keyboard. Alternatively, you can type by directly clicking on the keys. Both ways play a typing sound effect in the background and change the position of keys to make it more realistic. 
 
 ## Development setup
 
