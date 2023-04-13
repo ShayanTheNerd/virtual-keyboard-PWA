@@ -79,7 +79,9 @@
 				<article
 					class="flex select-none overflow-auto rounded-2xl bg-turquoise p-3.5 duration-500 dark:bg-zinc-900">
 					<!-- keyboard keypress sound effect -->
-					<audio src="assets/keypress-sound.wav" id="keySound" preload="auto" autoplay>
+					<audio id="keySound" preload="auto">
+						<source src="assets/audios/keypress-sound.wav" type="audio/wav" />
+						<source src="assets/audios/keypress-sound.mp3" type="audio/mpeg" />
 						Your browser does not supprot the audio element.
 					</audio>
 
