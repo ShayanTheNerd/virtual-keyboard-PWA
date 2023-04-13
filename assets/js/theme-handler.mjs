@@ -1,9 +1,8 @@
-export default function determineAndApplyTheme(themeIsDark = matchMedia('(prefers-color-scheme: dark)').matches) {
-	// save theme to 'localStorage'
-	localStorage.setItem('theme', themeIsDark ? 'dark' : 'light');
+export default function determineAndApplyTheme(theme = localStorage.getItem('theme')) {
+	theme ??= matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
 
-	// determine the preferred theme from 'localStorage'
-	const theme = localStorage.getItem('theme');
+	// save theme to 'localStorage'
+	localStorage.setItem('theme', theme);
 
 	// change the theme icon
 	document.getElementById('themeIcon').href.baseVal = `assets/icons.svg#keyboard-${theme}`;

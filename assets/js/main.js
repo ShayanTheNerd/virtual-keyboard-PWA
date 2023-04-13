@@ -131,8 +131,8 @@ document.addEventListener('DOMContentLoaded', () => {
 	});
 
 	document.getElementById('changeThemeBtn').addEventListener('click', () => {
-		const changedThemeIsDark = localStorage.getItem('theme') === 'dark' ? false : true;
-		determineAndApplyTheme(changedThemeIsDark);
+		const changedTheme = localStorage.getItem('theme') === 'dark' ? 'light' : 'dark';
+		determineAndApplyTheme(changedTheme);
 	});
 
 	// changing sound mode
