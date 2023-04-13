@@ -41,17 +41,17 @@ const simulateTyping = event => {
 		if (/]|}/.test(key)) return 'BracketRight';
 		if (/\[|{/.test(key)) return 'BracketLeft';
 		if (/^\d$/.test(key)) return `Digit${key}`;
-		if (/^[a-zA-Z]{1}$/.test(code)) return `${key.toUpperCase()}`;
+		if (/^[a-zA-Z]{1}$/.test(key)) return `key${key.toUpperCase()}`;
 		if (/^(?!F5$|F11$|F12$)F\d+$/.test(key)) {
 			event.preventDefault();
 			return `F${key.slice(1)}`;
 		}
 		if (code === 'Tab') return 'Tab';
 		if (code === 'Space') return 'Space';
+		if (key === 'Shift') return 'ShiftRight';
 		if (code === 'AltLeft') return 'AltLeft';
 		if (code === 'AltRight') return 'AltRight';
 		if (code === 'ShiftLeft') return 'ShiftLeft';
-		if (key === 'Shift') return 'ShiftRight';
 		if (code === 'ControlLeft') return 'ControlLeft';
 		if (code === 'ControlRight') return 'ControlRight';
 		return key;
