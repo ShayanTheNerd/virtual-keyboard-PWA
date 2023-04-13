@@ -1,0 +1,184 @@
+<svg>
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 96 256 124" id="keyboard-dark">
+		<g
+			stroke-miterlimit="10"
+			stroke-width="0"
+			transform="translate(128 128) scale(0.74 0.74) translate(-170.55 -170.55000000000004) scale(3.79 3.79) matrix(1 0 0 1 0 0)">
+			<rect fill="#353535" width="4.73" height="4.73" x="8.76" y="41.26" rx="0" ry="0"></rect>
+			<rect fill="#353535" width="45.38" height="4.73" x="22.31" y="65.25" rx="0" ry="0"></rect>
+			<rect fill="#353535" width="4.73" height="4.73" x="62.97" y="53.26" rx="0" ry="0"></rect>
+			<rect fill="#353535" width="4.73" height="4.73" x="49.41" y="53.26" rx="0" ry="0"></rect>
+			<rect fill="#353535" width="4.73" height="4.73" x="8.76" y="65.25" rx="0" ry="0"></rect>
+			<rect fill="#353535" width="4.73" height="4.73" x="22.31" y="53.26" rx="0" ry="0"></rect>
+			<rect fill="#353535" width="4.73" height="4.73" x="8.76" y="53.26" rx="0" ry="0"></rect>
+			<rect fill="#353535" width="4.73" height="4.73" x="22.31" y="41.26" rx="0" ry="0"></rect>
+			<rect fill="#353535" width="4.73" height="4.73" x="35.86" y="41.26" rx="0" ry="0"></rect>
+			<rect fill="#353535" width="4.73" height="4.73" x="49.41" y="41.26" rx="0" ry="0"></rect>
+			<rect fill="#353535" width="4.73" height="4.73" x="76.52" y="65.25" rx="0" ry="0"></rect>
+			<rect fill="#353535" width="4.73" height="4.73" x="35.86" y="53.26" rx="0" ry="0"></rect>
+			<rect fill="#353535" width="4.73" height="4.73" x="76.52" y="53.26" rx="0" ry="0"></rect>
+			<rect fill="#353535" width="4.73" height="4.73" x="76.52" y="41.26" rx="0" ry="0"></rect>
+			<rect fill="#353535" width="4.73" height="4.73" x="62.97" y="41.26" rx="0" ry="0"></rect>
+			<path
+				fill="#18181b"
+				d="M86.86 32.935H45v-3.101a3.542 3.542 0 0 1 3.538-3.538h35.924A5.544 5.544 0 0 0 90 20.757a5.544 5.544 0 0 0-5.538-5.538H31.501c-.458-2.012-2.253-3.521-4.401-3.521h-6.181a1 1 0 0 0-1 1v2.521h-2.6v2h2.6v2.521a1 1 0 0 0 1 1H27.1a4.522 4.522 0 0 0 4.401-3.521h52.961A3.542 3.542 0 0 1 88 20.757a3.543 3.543 0 0 1-3.538 3.539H48.538A5.544 5.544 0 0 0 43 29.834v3.101H3.139A3.142 3.142 0 0 0 0 36.074v39.089a3.143 3.143 0 0 0 3.139 3.139H86.86A3.143 3.143 0 0 0 90 75.163V36.074a3.143 3.143 0 0 0-3.14-3.139zm-39.447 7.32a1 1 0 0 1 1-1h6.726a1 1 0 0 1 1 1v6.726a1 1 0 0 1-1 1h-6.726a1 1 0 0 1-1-1v-6.726zm0 12a1 1 0 0 1 1-1h6.726a1 1 0 0 1 1 1v6.727a1 1 0 0 1-1 1h-6.726a1 1 0 0 1-1-1v-6.727zm-13.552-12a1 1 0 0 1 1-1h6.726a1 1 0 0 1 1 1v6.726a1 1 0 0 1-1 1h-6.726a1 1 0 0 1-1-1v-6.726zm0 12a1 1 0 0 1 1-1h6.726a1 1 0 0 1 1 1v6.727a1 1 0 0 1-1 1h-6.726a1 1 0 0 1-1-1v-6.727zm-13.552-12a1 1 0 0 1 1-1h6.726a1 1 0 0 1 1 1v6.726a1 1 0 0 1-1 1h-6.726a1 1 0 0 1-1-1v-6.726zm0 12a1 1 0 0 1 1-1h6.726a1 1 0 0 1 1 1v6.727a1 1 0 0 1-1 1h-6.726a1 1 0 0 1-1-1v-6.727zm-4.826 18.726a1 1 0 0 1-1 1H7.757a1 1 0 0 1-1-1v-6.727a1 1 0 0 1 1-1h6.726a1 1 0 0 1 1 1v6.727zm0-12a1 1 0 0 1-1 1H7.757a1 1 0 0 1-1-1v-6.727a1 1 0 0 1 1-1h6.726a1 1 0 0 1 1 1v6.727zm0-12a1 1 0 0 1-1 1H7.757a1 1 0 0 1-1-1v-6.726a1 1 0 0 1 1-1h6.726a1 1 0 0 1 1 1v6.726zm54.207 24a1 1 0 0 1-1 1H21.309a1 1 0 0 1-1-1v-6.727a1 1 0 0 1 1-1H68.69a1 1 0 0 1 1 1v6.727zm0-12a1 1 0 0 1-1 1h-6.726a1 1 0 0 1-1-1v-6.727a1 1 0 0 1 1-1h6.726a1 1 0 0 1 1 1v6.727zm0-12a1 1 0 0 1-1 1h-6.726a1 1 0 0 1-1-1v-6.726a1 1 0 0 1 1-1h6.726a1 1 0 0 1 1 1v6.726zm13.553 24a1 1 0 0 1-1 1h-6.727a1 1 0 0 1-1-1v-6.727a1 1 0 0 1 1-1h6.727a1 1 0 0 1 1 1v6.727zm0-12a1 1 0 0 1-1 1h-6.727a1 1 0 0 1-1-1v-6.727a1 1 0 0 1 1-1h6.727a1 1 0 0 1 1 1v6.727zm0-12a1 1 0 0 1-1 1h-6.727a1 1 0 0 1-1-1v-6.726a1 1 0 0 1 1-1h6.727a1 1 0 0 1 1 1v6.726z"></path>
+		</g>
+	</symbol>
+
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 96 256 124" id="keyboard-light">
+		<g
+			fill="none"
+			stroke-miterlimit="10"
+			transform="translate(128 128) scale(0.74 0.74) translate(-170.55 -170.55000000000004) scale(3.79 3.79) matrix(1 0 0 1 0 0)">
+			<rect fill="#353535" width="4.73" height="4.73" x="8.76" y="41.26" rx="0" ry="0"></rect>
+			<rect fill="#353535" width="45.38" height="4.73" x="22.31" y="65.25" rx="0" ry="0"></rect>
+			<rect fill="#353535" width="4.73" height="4.73" x="62.97" y="53.26" rx="0" ry="0"></rect>
+			<rect fill="#353535" width="4.73" height="4.73" x="49.41" y="53.26" rx="0" ry="0"></rect>
+			<rect fill="#353535" width="4.73" height="4.73" x="8.76" y="65.25" rx="0" ry="0"></rect>
+			<rect fill="#353535" width="4.73" height="4.73" x="22.31" y="53.26" rx="0" ry="0"></rect>
+			<rect fill="#353535" width="4.73" height="4.73" x="8.76" y="53.26" rx="0" ry="0"></rect>
+			<rect fill="#353535" width="4.73" height="4.73" x="22.31" y="41.26" rx="0" ry="0"></rect>
+			<rect fill="#353535" width="4.73" height="4.73" x="35.86" y="41.26" rx="0" ry="0"></rect>
+			<rect fill="#353535" width="4.73" height="4.73" x="49.41" y="41.26" rx="0" ry="0"></rect>
+			<rect fill="#353535" width="4.73" height="4.73" x="76.52" y="65.25" rx="0" ry="0"></rect>
+			<rect fill="#353535" width="4.73" height="4.73" x="35.86" y="53.26" rx="0" ry="0"></rect>
+			<rect fill="#353535" width="4.73" height="4.73" x="76.52" y="53.26" rx="0" ry="0"></rect>
+			<rect fill="#353535" width="4.73" height="4.73" x="76.52" y="41.26" rx="0" ry="0"></rect>
+			<rect fill="#353535" width="4.73" height="4.73" x="62.97" y="41.26" rx="0" ry="0"></rect>
+			<path
+				fill="#13BBAF"
+				d="M86.86 32.935H45v-3.101a3.542 3.542 0 0 1 3.538-3.538h35.924A5.544 5.544 0 0 0 90 20.757a5.544 5.544 0 0 0-5.538-5.538H31.501c-.458-2.012-2.253-3.521-4.401-3.521h-6.181a1 1 0 0 0-1 1v2.521h-2.6v2h2.6v2.521a1 1 0 0 0 1 1H27.1a4.522 4.522 0 0 0 4.401-3.521h52.961A3.542 3.542 0 0 1 88 20.757a3.543 3.543 0 0 1-3.538 3.539H48.538A5.544 5.544 0 0 0 43 29.834v3.101H3.139A3.142 3.142 0 0 0 0 36.074v39.089a3.143 3.143 0 0 0 3.139 3.139H86.86A3.143 3.143 0 0 0 90 75.163V36.074a3.143 3.143 0 0 0-3.14-3.139zm-39.447 7.32a1 1 0 0 1 1-1h6.726a1 1 0 0 1 1 1v6.726a1 1 0 0 1-1 1h-6.726a1 1 0 0 1-1-1v-6.726zm0 12a1 1 0 0 1 1-1h6.726a1 1 0 0 1 1 1v6.727a1 1 0 0 1-1 1h-6.726a1 1 0 0 1-1-1v-6.727zm-13.552-12a1 1 0 0 1 1-1h6.726a1 1 0 0 1 1 1v6.726a1 1 0 0 1-1 1h-6.726a1 1 0 0 1-1-1v-6.726zm0 12a1 1 0 0 1 1-1h6.726a1 1 0 0 1 1 1v6.727a1 1 0 0 1-1 1h-6.726a1 1 0 0 1-1-1v-6.727zm-13.552-12a1 1 0 0 1 1-1h6.726a1 1 0 0 1 1 1v6.726a1 1 0 0 1-1 1h-6.726a1 1 0 0 1-1-1v-6.726zm0 12a1 1 0 0 1 1-1h6.726a1 1 0 0 1 1 1v6.727a1 1 0 0 1-1 1h-6.726a1 1 0 0 1-1-1v-6.727zm-4.826 18.726a1 1 0 0 1-1 1H7.757a1 1 0 0 1-1-1v-6.727a1 1 0 0 1 1-1h6.726a1 1 0 0 1 1 1v6.727zm0-12a1 1 0 0 1-1 1H7.757a1 1 0 0 1-1-1v-6.727a1 1 0 0 1 1-1h6.726a1 1 0 0 1 1 1v6.727zm0-12a1 1 0 0 1-1 1H7.757a1 1 0 0 1-1-1v-6.726a1 1 0 0 1 1-1h6.726a1 1 0 0 1 1 1v6.726zm54.207 24a1 1 0 0 1-1 1H21.309a1 1 0 0 1-1-1v-6.727a1 1 0 0 1 1-1H68.69a1 1 0 0 1 1 1v6.727zm0-12a1 1 0 0 1-1 1h-6.726a1 1 0 0 1-1-1v-6.727a1 1 0 0 1 1-1h6.726a1 1 0 0 1 1 1v6.727zm0-12a1 1 0 0 1-1 1h-6.726a1 1 0 0 1-1-1v-6.726a1 1 0 0 1 1-1h6.726a1 1 0 0 1 1 1v6.726zm13.553 24a1 1 0 0 1-1 1h-6.727a1 1 0 0 1-1-1v-6.727a1 1 0 0 1 1-1h6.727a1 1 0 0 1 1 1v6.727zm0-12a1 1 0 0 1-1 1h-6.727a1 1 0 0 1-1-1v-6.727a1 1 0 0 1 1-1h6.727a1 1 0 0 1 1 1v6.727zm0-12a1 1 0 0 1-1 1h-6.727a1 1 0 0 1-1-1v-6.726a1 1 0 0 1 1-1h6.727a1 1 0 0 1 1 1v6.726z"></path>
+		</g>
+	</symbol>
+
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="close-x">
+		<path
+			stroke="none"
+			d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10s10-4.47 10-10S17.53 2 12 2zm4.3 14.3a.996.996 0 0 1-1.41 0L12 13.41L9.11 16.3a.996.996 0 1 1-1.41-1.41L10.59 12L7.7 9.11A.996.996 0 1 1 9.11 7.7L12 10.59l2.89-2.89a.996.996 0 1 1 1.41 1.41L13.41 12l2.89 2.89c.38.38.38 1.02 0 1.41z"></path>
+	</symbol>
+
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="speaker-on">
+		<path
+			fill="none"
+			stroke-linecap="round"
+			stroke-linejoin="round"
+			stroke-width="2"
+			d="M15 8a5 5 0 0 1 0 8m2.7-11a9 9 0 0 1 0 14M6 15H4a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1h2l3.5-4.5A.8.8 0 0 1 11 5v14a.8.8 0 0 1-1.5.5L6 15"></path>
+	</symbol>
+
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="speaker-low">
+		<path
+			fill="none"
+			stroke-linecap="round"
+			stroke-linejoin="round"
+			stroke-width="2"
+			d="M15 8a5 5 0 0 1 0 8m-9-1H4a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1h2l3.5-4.5A.8.8 0 0 1 11 5v14a.8.8 0 0 1-1.5.5L6 15"></path>
+	</symbol>
+
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="speaker-off">
+		<path
+			fill="none"
+			stroke-linecap="round"
+			stroke-linejoin="round"
+			stroke-width="2"
+			d="M6 15H4a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1h2l3.5-4.5A.8.8 0 0 1 11 5v14a.8.8 0 0 1-1.5.5L6 15m10-5l4 4m0-4l-4 4"></path>
+	</symbol>
+
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="screen-share">
+		<path stroke="none" d="M28 8H14a2 2 0 0 0-2 2v2h2v-2h14v10h-2v2h2a2 2 0 0 0 2-2V10a2 2 0 0 0-2-2Z"></path>
+		<path
+			stroke="none"
+			d="M22 14H8a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V16a2 2 0 0 0-2-2ZM8 26V16h14v10Z"></path>
+	</symbol>
+
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="microphone-muted">
+		<path
+			stroke="none"
+			d="M23 17a7 7 0 0 1-11.73 5.14l1.42-1.41A5 5 0 0 0 21 17v-4.58l9-9L28.59 2L2 28.59L3.41 30l6.44-6.44A8.91 8.91 0 0 0 15 25.94V28h-4v2h10v-2h-4v-2.06A9 9 0 0 0 25 17v-3h-2zm-14 .32V14H7v3a9 9 0 0 0 .25 2.09zM20.76 5.58A5 5 0 0 0 11 7v8.34z"></path>
+	</symbol>
+
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 -1 16 19" id="moon">
+		<path
+			d="M6 .278a.768.768 0 0 1 .08.858a7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277c.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316a.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71C0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"></path>
+	</symbol>
+
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" id="sun-small">
+		<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+			<circle cx="7" cy="7" r="3.25"></circle>
+			<path
+				d="M7 .5v1m0 11v1M13.5 7h-1m-11 0h-1m11.1-4.6l-.71.71m-7.78 7.78l-.71.71m9.2 0l-.71-.71M3.11 3.11L2.4 2.4"></path>
+		</g>
+	</symbol>
+
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" id="sun-big">
+		<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+			<circle cx="7" cy="7" r="2.5"></circle>
+			<path
+				d="M7 .5v2m-4.6-.1l1.42 1.42M.5 7h2m-.1 4.6l1.42-1.42M7 13.5v-2m4.6.1l-1.42-1.42M13.5 7h-2m.1-4.6l-1.42 1.42"></path>
+		</g>
+	</symbol>
+
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" id="tab-arrow-left">
+		<path
+			fill="none"
+			stroke-linecap="round"
+			stroke-linejoin="round"
+			d="M13.5 7h-10M7 3.5L3.5 7L7 10.5m-6.5-7v7"></path>
+	</symbol>
+
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" id="tab-arrow-right">
+		<path fill="none" stroke-linecap="round" stroke-linejoin="round" d="M.5 7h10M7 10.5L10.5 7L7 3.5m6.5 0v7"></path>
+	</symbol>
+
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" id="enter-arrow-curve-left">
+		<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+			<path d="m3.5 11.5l-3-3l3-3"></path>
+			<path d="M13.5 2.5v2a4 4 0 0 1-4 4h-9"></path>
+		</g>
+	</symbol>
+
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" id="windows-logo">
+		<path
+			d="M523.8 191.4v288.9h382V128.1zm0 642.2l382 62.2v-352h-382zM120.1 480.2H443V201.9l-322.9 53.5zm0 290.4L443 823.2V543.8H120.1z"></path>
+	</symbol>
+
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" id="arrow-up">
+		<path fill="none" stroke-linecap="round" stroke-linejoin="round" d="M7 13.5V.5M10.5 4L7 .5L3.5 4"></path>
+	</symbol>
+
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" id="arrow-left">
+		<path fill="none" stroke-linecap="round" stroke-linejoin="round" d="M13.5 7H.5M4 3.5L.5 7L4 10.5"></path>
+	</symbol>
+
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" id="caret-up">
+		<path
+			fill="none"
+			stroke-linecap="round"
+			stroke-linejoin="round"
+			d="M.5 10.15L6.65 4a.48.48 0 0 1 .7 0l6.15 6.15"></path>
+	</symbol>
+
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" id="caret-right">
+		<path
+			fill="none"
+			stroke-linecap="round"
+			stroke-linejoin="round"
+			d="M3.85.5L10 6.65a.48.48 0 0 1 0 .7L3.85 13.5"></path>
+	</symbol>
+
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" id="caret-down">
+		<path
+			fill="none"
+			stroke-linecap="round"
+			stroke-linejoin="round"
+			d="M.5 3.85L6.65 10a.48.48 0 0 0 .7 0l6.15-6.15"></path>
+	</symbol>
+
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" id="caret-left">
+		<path
+			fill="none"
+			stroke-linecap="round"
+			stroke-linejoin="round"
+			d="M10.15.5L4 6.65a.48.48 0 0 0 0 .7l6.15 6.15"></path>
+	</symbol>
+</svg>
