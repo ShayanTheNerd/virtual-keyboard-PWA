@@ -13,7 +13,7 @@
 		"quadratic equation solver",
 		"tailwindcss CLI template"
 	],
-	"description": "Solve basic quadratic equations in the blink of an eye!",
+	"description": "Experience virtual typing!",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/ShayanTheNerd/virtual-keyboard",
