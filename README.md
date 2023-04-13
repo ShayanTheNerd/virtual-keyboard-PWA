@@ -10,11 +10,10 @@ Virtual Keyboard gives you an awesome virtual-typing experience!
 
 <ul>
   <li>HTML, CSS, JavaScript</li>
-  <li>Web Components</li>
-  <li>SVG Symbol Icons</li>
   <li>
     <a href="https://tailwindcss.com">Tailwind CSS</a>
   </li>
+  <li>SVG Symbol Icons</li>
 </ul>
 
 ## Features
@@ -22,11 +21,15 @@ Virtual Keyboard gives you an awesome virtual-typing experience!
 <ul>
   <li>Semantic, clean, and extendable code</li>
   <li>Input validation with <code>pattern</code> attribute</li>
+  <li>Dark Mode</li>
+  <li>Typing Sound Effect</li>
+  <li>Sound Control</li>
+  <li>Virtual Typing Effect</li>
 </ul>
 
 ## How it works
 
-Enter corresponding values for 3 variables **a**, **b**, and **c**. Then, the equations will be automatically created, solved, and it will output the value/values of variable **x**.
+Just start typing on your keyboard and watch the flow of your fingers on the virtual keyboard. Alternatively, you can try typing by directly clicking on the keys. Both ways play a typing sound effect in the background to make it more realistic. 
 
 ## Development setup
 
