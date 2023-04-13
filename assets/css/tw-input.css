@@ -1,53 +1,74 @@
-/* ! DO NOT FORMAT(BEAUTIFY) THIS FILE! */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* custom properties for gradient colors */
+@property --gradient-color-start {
+	syntax: '<color>';
+	inherits: true;
+	initial-value: transparent;
+}
+@property --gradient-color-end {
+	syntax: '<color>';
+	inherits: true;
+	initial-value: transparent;
+}
+
+@layer utilities {
+	/* applying transition to gradient background */
+	.bg-gradient-zinc-300-to-400 {
+		--gradient-color-start: #d4d4d8; /* zinc-300 */
+		--gradient-color-end: #a1a1aa; /* zinc-400 */
+		background-image: linear-gradient(to bottom, var(--gradient-color-start), var(--gradient-color-end));
+		transition: --gradient-color-start 500ms, --gradient-color-end 500ms !important;
+	}
+	.bg-gradient-zinc-400-to-500 {
+		--gradient-color-start: #a1a1aa; /* zinc-400 */
+		--gradient-color-end: #71717a; /* zinc-500 */
+		background-image: linear-gradient(to bottom, var(--gradient-color-start), var(--gradient-color-end));
+		transition: --gradient-color-start 500ms, --gradient-color-end 500ms !important;
+	}
+
+	.key--pressed {
+		@apply translate-y-[2.5px] shadow-[0_1px_0_0_#00000033] duration-75;
+	}
+}
+
+/* component classes for click effects, buttons, caps lock light, and keys */
 @layer components {
-	.small-keys {
-		@apply key-shadow flex w-[67px] cursor-pointer items-center justify-around rounded border-none bg-[#353535] py-1;
+	.click-effect {
+		@apply relative overflow-hidden before:absolute before:inset-0 before:-z-10 before:scale-[10] before:bg-[radial-gradient(circle,black_10%,transparent_10.01%)] before:opacity-0 active:before:scale-0 active:before:opacity-10 active:before:transition-none;
+	}
+	.click-effect::before {
+		transition: all 0.5s, opacity 1s;
 	}
 
-	.normal-keys {
-		@apply key-shadow flex h-[50px] w-[50px] cursor-pointer items-center justify-around rounded border-none bg-[#353535] py-1 md:h-[57px] md:w-[57px] 2xl:h-[67px] 2xl:w-[67px];
+	.btn {
+		@apply click-effect z-10 flex h-11 flex-initial basis-[90px] items-center justify-center rounded-lg px-2 font-medium capitalize tracking-wide shadow duration-150 lg:h-10 lg:min-w-[100px] lg:text-lg support:hover:shadow-sm;
 	}
 
-	.double-keys {
-		@apply flex-col px-2 py-px text-xl;
+	.capslock-light {
+		@apply !bg-blue-100 shadow-[0_0_3px_0_#dbeafe];
 	}
 
 	.key {
-		@apply text-base lg:text-lg 2xl:text-xl;
+		@apply support:hover:key--pressed flex min-w-[60px] items-center justify-around rounded-md bg-charcoal p-0.5 tracking-wide shadow-[0_4px_0_0_#00000033];
+	}
+
+	.key--double-characters {
+		@apply flex-col-reverse;
+	}
+	.key--double-characters span:first-of-type {
+		@apply ms-auto pe-2;
+	}
+	.key--double-characters span:last-of-type {
+		@apply me-auto ps-2;
 	}
 }
 
-.textarea {
-	min-height: 40px;
-}
-
-.small-light {
-	background-color: #fff !important;
-	box-shadow: 0 0 4px #ffffff !important;
-}
-
-.key-down {
-	box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
-	transform: translateY(4px);
-}
-
-.key-shadow {
-	box-shadow: 0 6px 0 rgba(0, 0, 0, 0.2);
-}
-
-.key-shadow:hover {
-	box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
-	transform: translateY(4px);
-	transition: all 0.1s;
-}
-
-.double-keys span:first-of-type {
-	margin-right: auto;
-}
-
-.double-keys span:last-of-type {
-	margin-left: auto;
+/* override some of the base styles for buttons and links on ':focus-visible' pseudo class */
+button,
+a,
+:where(:focus-visible) {
+	@apply outline outline-[2.5px] outline-offset-[3px] outline-transparent;
 }
