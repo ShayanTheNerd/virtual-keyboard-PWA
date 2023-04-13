@@ -48,10 +48,10 @@ const simulateTyping = event => {
 		}
 		if (code === 'Tab') return 'Tab';
 		if (code === 'Space') return 'Space';
+		if (code === 'ShiftLeft') return 'ShiftLeft';
 		if (key === 'Shift') return 'ShiftRight';
 		if (code === 'AltLeft') return 'AltLeft';
 		if (code === 'AltRight') return 'AltRight';
-		if (code === 'ShiftLeft') return 'ShiftLeft';
 		if (code === 'ControlLeft') return 'ControlLeft';
 		if (code === 'ControlRight') return 'ControlRight';
 		return key;
