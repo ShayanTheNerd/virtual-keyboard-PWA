@@ -114,5 +114,5 @@ More projects like this: https://github.com/ShayanTheNerd?tab=repositories <br /
 
 The code in this project is licensed under <a href="https://github.com/ShayanTheNerd/virtual-keyboard/blob/main/LICENSE.md">MIT license</a>. You're free to use it; but a link to this page and mentioning the author's name is mandatory.
 
-<br /><br />
-<a href="https://github.com/ShayanTheNerd/virtual-keyboard#virtual-keyboard">Back to top ⬆️</a>
+<br />
+<a href="https://github.com/ShayanTheNerd/virtual-keyboard#virtual-keyboard">back to top ⬆️</a>
