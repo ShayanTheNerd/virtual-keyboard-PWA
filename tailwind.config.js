@@ -6,7 +6,7 @@ export default {
 		extend: {
 			screens: {
 				support: { raw: '(hover: hover)' }, // check if hover is supported on the device
-				lg: '1014px', // overriding the default value (@media (min-width: 972px))
+				lg: '1014px', // overriding the default value (@media (min-width: 1014px))
 			},
 			colors: {
 				charcoal: '#353535',
