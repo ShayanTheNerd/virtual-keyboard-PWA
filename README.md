@@ -3,7 +3,7 @@
 Virtual Keyboard gives you an awesome virtual-typing experience!
 
 <figure>
-  <img src="https://github.com/ShayanTheNerd/virtual-keyboard/blob/main/preview-screenshot.jpeg" />
+  <img src="https://github.com/ShayanTheNerd/virtual-keyboard/blob/main/og-img.png" />
 </figure>
 
 ## Technologies used in this project
