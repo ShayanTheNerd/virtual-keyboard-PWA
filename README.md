@@ -1,6 +1,6 @@
-# Virtual Keyboard
+# Virtual Keyboard Progressive Web App
 
-Virtual Keyboard gives you an awesome virtual-typing experience!
+Virtual Keyboard PWA gives you an awesome virtual-typing experience!
 
 <figure>
   <img src="https://github.com/ShayanTheNerd/virtual-keyboard/blob/main/og-img.png" />
@@ -10,6 +10,7 @@ Virtual Keyboard gives you an awesome virtual-typing experience!
 
 <ul>
   <li>HTML, CSS, JavaScript</li>
+  <li>PWA</li>
   <li>
     <a href="https://tailwindcss.com">Tailwind CSS</a>
   </li>
@@ -25,11 +26,12 @@ Virtual Keyboard gives you an awesome virtual-typing experience!
   <li>Sound Control</li>
   <li>Virtual Typing Effect</li>
   <li>Dynamically-Generated Keyboard Keys</li>
+  <li>PWA Features & Offline Mode</li>
 </ul>
 
 ## How it works
 
-Just start typing on your keyboard and watch the flow of your fingers on the virtual keyboard. Alternatively, you can type by directly clicking on the keys. Both ways play a typing sound effect in the background and change the position of keys to make it more realistic. 
+Just start typing on your keyboard and watch the flow of your fingers on the virtual keyboard. Alternatively, you can type by directly clicking on the keys. Both ways play a typing sound effect in the background and change the position of keys to make it more realistic. Also, in the PWA version, you can install it directly on your device, then you're able to use it even offline!
 
 ## Development setup
 
