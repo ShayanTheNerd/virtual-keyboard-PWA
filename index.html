@@ -46,7 +46,7 @@
 	</head>
 
 	<body
-		class="bg-gradient-zinc-300-to-400 dark:bg-gradient-zinc-400-to-500 relative flex h-full min-h-[100dvh] flex-col items-center bg-zinc-300 p-3 pb-11 text-zinc-100 duration-500 dark:bg-zinc-400 lg:justify-center">
+		class="bg-gradient-zinc-300-to-400 dark:bg-gradient-zinc-400-to-500 relative flex h-full min-h-[100dvh] flex-col items-center bg-zinc-300 p-3 pb-12 text-zinc-100 duration-500 dark:bg-zinc-400 lg:justify-center">
 		<!-- non-desktop device warning modal -->
 		<dialog
 			id="warningModal"
@@ -55,7 +55,7 @@
 			<button type="button" id="closeModalBtn" class="rounded-lg bg-turquoise px-14 py-2.5 font-medium">OK</button>
 		</dialog>
 
-		<main class="flex w-full max-w-[976px] flex-col space-y-4 lg:space-y-6 xl:max-w-fit">
+		<main class="flex w-full max-w-[976px] flex-col space-y-4 lg:space-y-6 xl:min-w-[976px] xl:max-w-fit">
 			<h1 class="mb-2 text-center text-2xl font-bold tracking-wider text-turquoise duration-500 dark:text-charcoal">
 				Virtual Keyboard PWA
 			</h1>
@@ -114,7 +114,7 @@
 			<!-- virtual keyboard -->
 			<section class="overflow-auto rounded-2xl shadow-xl">
 				<article
-					class="flex select-none overflow-auto rounded-2xl bg-turquoise p-3.5 duration-500 dark:bg-zinc-900">
+					class="flex min-h-[418px] select-none overflow-auto rounded-2xl bg-turquoise p-3.5 duration-500 dark:bg-zinc-900">
 					<!-- keyboard keypress sound effect -->
 					<audio id="keySound" preload="auto">
 						<source src="assets/audios/keypress-sound.wav" type="audio/wav" />
