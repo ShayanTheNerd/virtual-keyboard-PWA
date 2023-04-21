@@ -14,6 +14,12 @@
 	initial-value: transparent;
 }
 
+@layer base {
+	:where(button, a):focus-visible {
+		@apply outline outline-[2.5px] outline-offset-[3px] outline-transparent;
+	}
+}
+
 @layer utilities {
 	/* applying transition to gradient background */
 	.bg-gradient-zinc-300-to-400 {
@@ -34,7 +40,6 @@
 	}
 }
 
-/* component classes for click effects, buttons, caps lock light, and keys */
 @layer components {
 	.click-effect {
 		@apply relative overflow-hidden before:absolute before:inset-0 before:-z-10 before:scale-[10] before:bg-[radial-gradient(circle,black_10%,transparent_10.01%)] before:opacity-0 active:before:scale-0 active:before:opacity-10 active:before:transition-none;
@@ -64,11 +69,4 @@
 	.key--double-characters span:last-of-type {
 		@apply me-auto ps-2;
 	}
-}
-
-/* override some of the base styles for buttons and links on ':focus-visible' pseudo class */
-button,
-a,
-:where(:focus-visible) {
-	@apply outline outline-[2.5px] outline-offset-[3px] outline-transparent;
 }
