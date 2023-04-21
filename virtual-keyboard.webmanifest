@@ -1,7 +1,7 @@
 {
 	"name": "Virtual Keyboard Progressive Web App",
 	"short_name": "Virtual Keyboard",
-	"description": "Virtual Keyboard Progressive Web App gives you an awesome virtual-typing experience! Start typing on your keyboard and listen to the sound of keys going up and down, printing out words and sentences. Install the PWA version on your device and enjoy it offline!",
+	"description": "Virtual Keyboard Progressive Web App gives you an awesome virtual-typing experience. Install the PWA version on your device and enjoy it offline! Start typing on your keyboard and listen to the sound of keys going up and down, printing out words and sentences.",
 	"start_url": "./index.html",
 	"display": "standalone",
 	"theme_color": "#d4d4d8",

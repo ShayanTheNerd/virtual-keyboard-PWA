@@ -3,7 +3,7 @@
 Virtual Keyboard PWA gives you an awesome virtual-typing experience!
 
 <figure>
-  <img src="https://github.com/ShayanTheNerd/virtual-keyboard/blob/main/og-img.png" />
+  <img src="https://github.com/ShayanTheNerd/virtual-keyboard-PWA/blob/main/og-img.png" />
 </figure>
 
 ## Technologies used in this project
@@ -38,7 +38,7 @@ Just start typing on your keyboard and watch the flow of your fingers on the vir
 #### First, clone the project:
 
 ```sh
-git clone https://github.com/ShayanTheNerd/virtual-keyboard.git
+git clone https://github.com/ShayanTheNerd/virtual-keyboard-PWA.git
 ```
 
 Alternatively, you can copy the source of the project directly to your local environment using <a href="https://github.com/Rich-Harris/degit">Degit</a>:
@@ -46,7 +46,7 @@ Alternatively, you can copy the source of the project directly to your local env
 ```sh
 npm install -g degit
 
-degit https://github.com/ShayanTheNerd/virtual-keyboard new-project-folder
+degit https://github.com/ShayanTheNerd/virtual-keyboard-PWA new-project-folder
 ```
 
 #### Then, install necessary npm packages:
@@ -92,9 +92,9 @@ If you want to develop this project, please stick to these rules:
 Your contribution is always welcome, please follow these steps:
 
 <ol>
-  <li>Fork the project (https://github.com/ShayanTheNerd/virtual-keyboard/fork)</li>
+  <li>Fork the project (https://github.com/ShayanTheNerd/virtual-keyboard-PWA/fork)</li>
   <li>Create your feature branch (<code>git checkout -b feature/branch-name</code>)</li>
-  <li>Make sure you follow instructions in the <a href="https://github.com/ShayanTheNerd/virtual-keyboard#style-guide">style guide</a></li>
+  <li>Make sure you follow instructions in the <a href="https://github.com/ShayanTheNerd/virtual-keyboard-PWA#style-guide">style guide</a></li>
   <li>Commit your changes (<code>git commit -am 'Added foo bar baz feature'</code>)</li>
   <li>Push to the branch (<code>git push origin feature/branch-name</code>)</li>
   <li>Create a new Pull Request</li>
@@ -102,10 +102,10 @@ Your contribution is always welcome, please follow these steps:
 
 ## Links
 
-Project homepage: https://shayanthenerd.github.io/virtual-keyboard <br /><br />
-Repository: https://github.com/ShayanTheNerd/virtual-keyboard <br /><br />
-Issues: https://github.com/ShayanTheNerd/virtual-keyboard/issues <br /><br />
-Pull requests: https://github.com/ShayanTheNerd/virtual-keyboard/pulls <br /><br />
+Project homepage: https://shayanthenerd.github.io/virtual-keyboard-PWA <br /><br />
+Repository: https://github.com/ShayanTheNerd/virtual-keyboard-PWA <br /><br />
+Issues: https://github.com/ShayanTheNerd/virtual-keyboard-PWA/issues <br /><br />
+Pull requests: https://github.com/ShayanTheNerd/virtual-keyboard-PWA/pulls <br /><br />
 More projects like this: https://github.com/ShayanTheNerd?tab=repositories <br /><br />
 
 ## Author
@@ -114,7 +114,7 @@ More projects like this: https://github.com/ShayanTheNerd?tab=repositories <br /
 
 ## License
 
-The code in this project is licensed under <a href="https://github.com/ShayanTheNerd/virtual-keyboard/blob/main/LICENSE.md">MIT license</a>. You're free to use it; but a link to this page and mentioning the author's name is mandatory.
+The code in this project is licensed under <a href="https://github.com/ShayanTheNerd/virtual-keyboard-PWA/blob/main/LICENSE.md">MIT license</a>. You're free to use it; but a link to this page and mentioning the author's name is mandatory.
 
 <br />
-<a href="https://github.com/ShayanTheNerd/virtual-keyboard#virtual-keyboard">back to top ⬆️</a>
+<a href="https://github.com/ShayanTheNerd/virtual-keyboard-PWA#virtual-keyboard-PWA">back to top ⬆️</a>

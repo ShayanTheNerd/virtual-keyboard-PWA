@@ -1,5 +1,5 @@
 // app files to cache
-const CACHE_VERSION = 1;
+const CACHE_VERSION = 1.1;
 const appCacheName = `Virtual_Keyboard-v${CACHE_VERSION}`;
 const appContentToCache = [
 	'/',

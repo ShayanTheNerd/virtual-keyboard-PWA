@@ -1,7 +1,7 @@
 {
 	"license": "MIT",
-	"homepage": "https://github.com/ShayanTheNerd/virtual-keyboard",
-	"readme": "https://github.com/ShayanTheNerd/virtual-keyboard#readme",
+	"homepage": "https://github.com/ShayanTheNerd/virtual-keyboard-PWA",
+	"readme": "https://github.com/ShayanTheNerd/virtual-keyboard-PWA#readme",
 	"author": {
 		"name": "Shayan Zamani",
 		"url": "https://shayan-zamani.me/",
@@ -18,12 +18,12 @@
 	"description": "Experience virtual typing with Virtual Keyboard Progressive Web App!",
 	"repository": {
 		"type": "git",
-		"directory": "virtual-keyboard-PWA",
-		"url": "https://github.com/ShayanTheNerd/virtual-keyboard"
+		"directory": "virtual-keyboard-PWA-PWA",
+		"url": "https://github.com/ShayanTheNerd/virtual-keyboard-PWA"
 	},
 	"bugs": {
 		"email": "sh.zamani384@gmail.com",
-		"url": "https://github.com/ShayanTheNerd/virtual-keyboard/issues"
+		"url": "https://github.com/ShayanTheNerd/virtual-keyboard-PWA/issues"
 	},
 	"devDependencies": {
 		"prettier": "^2.8.7",
