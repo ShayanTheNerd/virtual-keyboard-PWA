@@ -12,16 +12,17 @@
 		"light/dark mode",
 		"virtual keyboard",
 		"responsive design",
+		"progressive web app",
 		"tailwindcss CLI template"
 	],
-	"description": "Experience virtual typing!",
+	"description": "Experience virtual typing with Virtual Keyboard Progressive Web App!",
 	"repository": {
 		"type": "git",
-		"directory": "main",
+		"directory": "virtual-keyboard-PWA",
 		"url": "https://github.com/ShayanTheNerd/virtual-keyboard"
 	},
 	"bugs": {
-      "email": "sh.zamani384@gmail.com",
+		"email": "sh.zamani384@gmail.com",
 		"url": "https://github.com/ShayanTheNerd/virtual-keyboard/issues"
 	},
 	"devDependencies": {

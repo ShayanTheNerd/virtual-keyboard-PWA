@@ -155,3 +155,20 @@ document.addEventListener('DOMContentLoaded', () => {
 	['click', 'keydown'].forEach(event => window.addEventListener(event, simulateTyping));
 	window.addEventListener('keyup', () => document.querySelector('.key--pressed')?.classList.remove('key--pressed'));
 }
+
+// registering Service Worker
+window.addEventListener('load', () => navigator.serviceWorker.register('./assets/js/service-worker-PWA.mjs')); // URL from the root of project)
+
+// requesting permission for notifications
+document.getElementById('changeThemeBtn').addEventListener('click', () => {
+	const randomUUIDNotification = () => {
+		const notifTitle = 'Theme Changed';
+		const notifBody = `Random UUID: ${crypto.randomUUID()}`;
+		const notifImg = '../../favicon.ico';
+		const options = { body: notifBody, icon: notifImg };
+
+		return new Notification(notifTitle, options);
+	};
+
+	Notification.requestPermission().then(result => result === 'granted' && randomUUIDNotification());
+});
