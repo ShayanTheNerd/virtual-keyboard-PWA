@@ -1,6 +1,6 @@
-import keys from './keyboard-keys-data.mjs'; // importing data for keyboard keys
-import generateKeyboardKeys from './keyboard-keys-generator.mjs'; // importing function to generate keyboard keys
-import determineAndApplyTheme from './theme-handler.mjs'; // importing theme handling function
+import keys from './modules/keyboard-keys-data.mjs'; // importing data for keyboard keys
+import generateKeyboardKeys from './modules/keyboard-keys-generator.mjs'; // importing function to generate keyboard keys
+import determineAndApplyTheme from './modules/theme-handler.mjs'; // importing theme handling function
 
 // global variables
 let soundIsOn = true;
