@@ -117,4 +117,4 @@ More projects like this: https://github.com/ShayanTheNerd?tab=repositories <br /
 The code in this project is licensed under <a href="https://github.com/ShayanTheNerd/virtual-keyboard-PWA/blob/main/LICENSE.md">MIT license</a>. You're free to use it; but a link to this page and mentioning the author's name is mandatory.
 
 <br />
-<a href="https://github.com/ShayanTheNerd/virtual-keyboard-PWA#virtual-keyboard-PWA">back to top ⬆️</a>
+<a href="https://github.com/ShayanTheNerd/virtual-keyboard-PWA#readme">back to top ⬆️</a>
