@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	focusOnTextarea();
 
 	// registering Service Worker
-	navigator.serviceWorker.register('./assets/js/service-worker-PWA.mjs'); // URL from the project root
+	navigator.serviceWorker.register('./assets/js/modules/service-worker-PWA.mjs'); // URL from the project root
 });
 
 // handling events
