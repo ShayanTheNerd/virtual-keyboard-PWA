@@ -3,7 +3,7 @@
 Virtual Keyboard PWA gives you an awesome virtual-typing experience!
 
 <figure>
-  <img src="https://github.com/ShayanTheNerd/virtual-keyboard-PWA/blob/main/og-img.png" />
+  <img src="https://github.com/ShayanTheNerd/virtual-keyboard-PWA/blob/main/og-img.webp" />
 </figure>
 
 ## Technologies used in this project
