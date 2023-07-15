@@ -4,25 +4,21 @@ export default [
 		{
 			keyId: 'Escape',
 			mainCharacter: 'esc',
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['min-w-fit', 'basis-full', 'rounded-tl-[inherit]'],
 		},
 		{
 			keyId: 'F1',
 			mainCharacter: 'f1',
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['min-w-fit', 'basis-full'],
 		},
 		{
 			keyId: 'F2',
 			mainCharacter: 'f2',
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['min-w-fit', 'basis-full'],
 		},
 		{
 			keyId: 'F3',
 			mainCharacter: 'f3',
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['min-w-fit', 'basis-full'],
 			extraCharacterMarkup: /* html */ `
             <svg class="h-4 w-4 rounded border fill-current p-px">
@@ -33,7 +29,6 @@ export default [
 		{
 			keyId: 'F4',
 			mainCharacter: 'f4',
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['min-w-fit', 'basis-full'],
 			extraCharacterMarkup: /* html */ `
             <svg class="h-4 w-4 rounded border fill-current">
@@ -44,13 +39,11 @@ export default [
 		{
 			keyId: 'F5',
 			mainCharacter: 'f5',
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['min-w-fit', 'basis-full'],
 		},
 		{
 			keyId: 'F6',
 			mainCharacter: 'f6',
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['min-w-fit', 'basis-full'],
 			extraCharacterMarkup: /* html */ `
             <svg class="h-4 w-4 rounded border stroke-current">
@@ -61,7 +54,6 @@ export default [
 		{
 			keyId: 'F7',
 			mainCharacter: 'f7',
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['min-w-fit', 'basis-full'],
 			extraCharacterMarkup: /* html */ `
             <svg class="h-4 w-4 rounded border stroke-current">
@@ -72,7 +64,6 @@ export default [
 		{
 			keyId: 'F8',
 			mainCharacter: 'f8',
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['min-w-fit', 'basis-full'],
 			extraCharacterMarkup: /* html */ `
             <svg class="h-4 w-4 rounded border fill-current p-px">
@@ -83,7 +74,6 @@ export default [
 		{
 			keyId: 'F9',
 			mainCharacter: 'f9',
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['min-w-fit', 'basis-full'],
 			extraCharacterMarkup: /* html */ `
             <svg class="h-4 w-4 rounded border stroke-current p-px">
@@ -94,7 +84,6 @@ export default [
 		{
 			keyId: 'F10',
 			mainCharacter: 'f10',
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['min-w-fit', 'basis-full'],
 			extraCharacterMarkup: /* html */ `
             <svg class="h-4 w-4 rounded border stroke-current p-px">
@@ -105,25 +94,21 @@ export default [
 		{
 			keyId: 'F11',
 			mainCharacter: 'f11',
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['min-w-fit', 'basis-full'],
 		},
 		{
 			keyId: 'F12',
 			mainCharacter: 'f12',
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['min-w-fit', 'basis-full'],
 		},
 		{
 			keyId: 'Insert',
 			mainCharacter: 'insert',
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['min-w-fit', 'basis-full'],
 		},
 		{
 			keyId: 'Delete',
 			mainCharacter: 'delete',
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['min-w-fit', 'basis-full', 'rounded-tr-[inherit]'],
 		},
 	],
@@ -133,98 +118,84 @@ export default [
 		{
 			keyId: 'Backquote',
 			mainCharacter: '`',
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['key--double-characters', 'w-[40px]', 'min-w-fit'],
 			extraCharacterMarkup: '<span>~</span>',
 		},
 		{
 			keyId: 'Digit1',
 			mainCharacter: '1',
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['key--double-characters'],
 			extraCharacterMarkup: '<span>!</span>',
 		},
 		{
 			keyId: 'Digit2',
 			mainCharacter: '2',
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['key--double-characters'],
 			extraCharacterMarkup: '<span>@</span>',
 		},
 		{
 			keyId: 'Digit3',
 			mainCharacter: '3',
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['key--double-characters'],
 			extraCharacterMarkup: '<span>#</span>',
 		},
 		{
 			keyId: 'Digit4',
 			mainCharacter: '4',
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['key--double-characters'],
 			extraCharacterMarkup: '<span>$</span>',
 		},
 		{
 			keyId: 'Digit5',
 			mainCharacter: '5',
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['key--double-characters'],
 			extraCharacterMarkup: '<span>%</span>',
 		},
 		{
 			keyId: 'Digit6',
 			mainCharacter: '6',
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['key--double-characters'],
 			extraCharacterMarkup: '<span>^</span>',
 		},
 		{
 			keyId: 'Digit7',
 			mainCharacter: '7',
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['key--double-characters'],
 			extraCharacterMarkup: '<span>&</span>',
 		},
 		{
 			keyId: 'Digit8',
 			mainCharacter: '8',
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['key--double-characters'],
 			extraCharacterMarkup: '<span>*</span>',
 		},
 		{
 			keyId: 'Digit9',
 			mainCharacter: '9',
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['key--double-characters'],
 			extraCharacterMarkup: '<span>(</span>',
 		},
 		{
 			keyId: 'Digit0',
 			mainCharacter: '0',
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['key--double-characters'],
 			extraCharacterMarkup: '<span>)</span>',
 		},
 		{
 			keyId: 'Minus',
 			mainCharacter: '-',
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['key--double-characters'],
 			extraCharacterMarkup: '<span>_</span>',
 		},
 		{
 			keyId: 'Equal',
 			mainCharacter: '=',
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['key--double-characters'],
 			extraCharacterMarkup: '<span>+</span>',
 		},
 		{
 			keyId: 'Backspace',
 			mainCharacter: 'backspace',
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['w-[109px]', 'flex-col'],
 			extraCharacterMarkup: /* html */ `
             <svg class="h-4 w-4 stroke-current">
@@ -239,7 +210,6 @@ export default [
 		{
 			keyId: 'Tab',
 			mainCharacter: 'tab',
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['min-w-[75px]'],
 			extraCharacterMarkup: /* html */ `
             <div>
@@ -255,71 +225,58 @@ export default [
 		{
 			keyId: 'keyQ',
 			mainCharacter: 'Q',
-			extraAttributes: ['tabindex="-1"'],
 		},
 		{
 			keyId: 'keyW',
 			mainCharacter: 'W',
-			extraAttributes: ['tabindex="-1"'],
 		},
 		{
 			keyId: 'keyE',
 			mainCharacter: 'E',
-			extraAttributes: ['tabindex="-1"'],
 		},
 		{
 			keyId: 'keyR',
 			mainCharacter: 'R',
-			extraAttributes: ['tabindex="-1"'],
 		},
 		{
 			keyId: 'keyT',
 			mainCharacter: 'T',
-			extraAttributes: ['tabindex="-1"'],
 		},
 		{
 			keyId: 'keyY',
 			mainCharacter: 'Y',
-			extraAttributes: ['tabindex="-1"'],
 		},
 		{
 			keyId: 'keyU',
 			mainCharacter: 'U',
-			extraAttributes: ['tabindex="-1"'],
 		},
 		{
 			keyId: 'keyI',
 			mainCharacter: 'I',
-			extraAttributes: ['tabindex="-1"'],
 		},
 		{
 			keyId: 'keyO',
 			mainCharacter: 'O',
-			extraAttributes: ['tabindex="-1"'],
 		},
 		{
 			keyId: 'keyP',
 			mainCharacter: 'P',
-			extraAttributes: ['tabindex="-1"'],
 		},
 		{
 			keyId: 'BracketLeft',
 			mainCharacter: '[',
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['key--double-characters'],
 			extraCharacterMarkup: '<span>{</span>',
 		},
 		{
 			keyId: 'BracketRight',
 			mainCharacter: ']',
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['key--double-characters'],
 			extraCharacterMarkup: '<span>}</span>',
 		},
 		{
 			keyId: 'BackSlash',
 			mainCharacter: '\\',
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['key--double-characters', 'w-[74px]'],
 			extraCharacterMarkup: '<span>|</span>',
 		},
@@ -330,7 +287,6 @@ export default [
 		{
 			keyId: 'CapsLock',
 			mainCharacter: 'caps lock',
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['min-w-[95px]'],
 			extraCharacterMarkup: /* html */ `
             <span class="relative top-0.5 h-1 w-1 rounded-full bg-[#252525]" id="capsLockLight"></span>
@@ -339,66 +295,54 @@ export default [
 		{
 			keyId: 'keyA',
 			mainCharacter: 'A',
-			extraAttributes: ['tabindex="-1"'],
 		},
 		{
 			keyId: 'keyS',
 			mainCharacter: 'S',
-			extraAttributes: ['tabindex="-1"'],
 		},
 		{
 			keyId: 'keyD',
 			mainCharacter: 'D',
-			extraAttributes: ['tabindex="-1"'],
 		},
 		{
 			keyId: 'keyF',
 			mainCharacter: 'F',
-			extraAttributes: ['tabindex="-1"'],
 		},
 		{
 			keyId: 'keyG',
 			mainCharacter: 'G',
-			extraAttributes: ['tabindex="-1"'],
 		},
 		{
 			keyId: 'keyH',
 			mainCharacter: 'H',
-			extraAttributes: ['tabindex="-1"'],
 		},
 		{
 			keyId: 'keyJ',
 			mainCharacter: 'J',
-			extraAttributes: ['tabindex="-1"'],
 		},
 		{
 			keyId: 'keyK',
 			mainCharacter: 'K',
-			extraAttributes: ['tabindex="-1"'],
 		},
 		{
 			keyId: 'keyL',
 			mainCharacter: 'L',
-			extraAttributes: ['tabindex="-1"'],
 		},
 		{
 			keyId: 'Semicolon',
 			mainCharacter: ';',
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['key--double-characters'],
 			extraCharacterMarkup: '<span>:</span>',
 		},
 		{
 			keyId: 'Quote',
 			mainCharacter: '&apos;',
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['key--double-characters'],
 			extraCharacterMarkup: '<span>&quot;</span>',
 		},
 		{
 			keyId: 'Enter',
 			mainCharacter: 'enter',
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['w-[120px]', 'flex-col'],
 			extraCharacterMarkup: /* html */ `
             <svg class="relative -top-0.5 h-4 w-4 stroke-current">
@@ -413,7 +357,6 @@ export default [
 		{
 			keyId: 'ShiftLeft',
 			mainCharacter: 'shift',
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['min-w-[126px]', 'justify-center'],
 			extraCharacterMarkup: /* html */ `
             <svg class="h-4 w-4 stroke-current">
@@ -424,56 +367,46 @@ export default [
 		{
 			keyId: 'keyZ',
 			mainCharacter: 'Z',
-			extraAttributes: ['tabindex="-1"'],
 		},
 		{
 			keyId: 'keyX',
 			mainCharacter: 'X',
-			extraAttributes: ['tabindex="-1"'],
 		},
 		{
 			keyId: 'keyC',
 			mainCharacter: 'C',
-			extraAttributes: ['tabindex="-1"'],
 		},
 		{
 			keyId: 'keyV',
 			mainCharacter: 'V',
-			extraAttributes: ['tabindex="-1"'],
 		},
 		{
 			keyId: 'keyB',
 			mainCharacter: 'B',
-			extraAttributes: ['tabindex="-1"'],
 		},
 		{
 			keyId: 'keyN',
 			mainCharacter: 'N',
-			extraAttributes: ['tabindex="-1"'],
 		},
 		{
 			keyId: 'keyM',
 			mainCharacter: 'M',
-			extraAttributes: ['tabindex="-1"'],
 		},
 		{
 			keyId: 'Comma',
 			mainCharacter: ',',
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['key--double-characters'],
 			extraCharacterMarkup: '<span>&lt;</span>',
 		},
 		{
 			keyId: 'Period',
 			mainCharacter: '.',
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['key--double-characters'],
 			extraCharacterMarkup: '<span>&gt;</span>',
 		},
 		{
 			keyId: 'Slash',
 			mainCharacter: '/',
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['key--double-characters'],
 			extraCharacterMarkup: '<span>?</span>',
 		},
@@ -484,7 +417,6 @@ export default [
          <use href="assets/icons.svg#arrow-up"></use>
          </svg>
          `,
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['w-[155px]', 'justify-center'],
 			extraCharacterMarkup: '<span>shift</span>',
 		},
@@ -495,13 +427,11 @@ export default [
 		{
 			keyId: 'ControlLeft',
 			mainCharacter: 'ctrl',
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['rounded-bl-[inherit]'],
 		},
 		{
 			keyId: 'Fn',
 			mainCharacter: '',
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['[&>*:first-child]:hidden'],
 			extraCharacterMarkup: /* html */ `
             <span class="flex h-5 w-5 items-center justify-center rounded border">fn</span>
@@ -510,7 +440,7 @@ export default [
 		{
 			keyId: 'Meta',
 			mainCharacter: '',
-			extraAttributes: ['aria-label="Windows logo key"', 'tabindex="-1"'],
+			extraAttribute: ['aria-label="Windows logo key"'],
 			extraClasses: ['[&>*:first-child]:hidden'],
 			extraCharacterMarkup: /* html */ `
             <svg class="h-6 w-6 fill-current stroke-current">
@@ -521,29 +451,26 @@ export default [
 		{
 			keyId: 'AltLeft',
 			mainCharacter: 'alt',
-			extraAttributes: ['tabindex="-1"'],
 		},
 		{
 			keyId: 'Space',
 			mainCharacter: '',
-			extraAttributes: ['title="space"', 'tabindex="-1"'],
+			extraAttribute: ['title="space"'],
 			extraClasses: ['min-w-[324px]'],
 		},
 		{
 			keyId: 'AltRight',
 			mainCharacter: 'alt',
-			extraAttributes: ['tabindex="-1"'],
 		},
 		{
 			keyId: 'ControlRight',
 			mainCharacter: 'ctrl',
-			extraAttributes: ['tabindex="-1"'],
 			extraClasses: ['min-w-[75px]'],
 		},
 		{
 			keyId: 'ArrowLeft',
 			mainCharacter: '',
-			extraAttributes: ['title="arrow left"', 'tabindex="-1"'],
+			extraAttribute: ['title="arrow left"'],
 			extraClasses: ['[&>*:first-child]:hidden'],
 			extraCharacterMarkup: /* html */ `
             <svg class="h-4 w-4 stroke-current">
@@ -554,7 +481,7 @@ export default [
 		{
 			keyId: 'ArrowRight',
 			mainCharacter: '',
-			extraAttributes: ['title="arrow right"', 'tabindex="-1"'],
+			extraAttribute: ['title="arrow right"'],
 			extraClasses: ['rounded-br-[inherit]', '[&>*:first-child]:hidden'],
 			extraCharacterMarkup: /* html */ `
             <svg class="h-4 w-4 stroke-current">

@@ -9,10 +9,10 @@ export default function generateKeyboardKeys(keyboard, keys) {
 
 		// generate keys and fill the current row with them
 		keys[i].forEach(key => {
-			const { mainCharacter = '', keyId = '', extraCharacterMarkup, extraAttributes, extraClasses } = key;
+			const { mainCharacter = '', keyId = '', extraCharacterMarkup, extraAttribute, extraClasses } = key;
 			/* prettier-ignore */
 			const keyMarkup = /* html */ `
-            <button type="button" id="${keyId}" ${extraAttributes?.join(' ') ?? ''} class="key ${extraClasses?.join(' ') ?? ''}">
+            <button type="button" id="${keyId}" ${extraAttribute ?? ''} class="key ${extraClasses?.join(' ') ?? ''}">
                <span>${mainCharacter}</span>
                ${extraCharacterMarkup || ''}
             </button>
@@ -24,13 +24,13 @@ export default function generateKeyboardKeys(keyboard, keys) {
 	// generate and place double-arrow keys
 	const doubleCaretsMarkup = /* html */ `
       <div class="flex min-w-[75px] flex-col gap-1">
-         <button type="button" id="ArrowUp" tabindex="-1" title="arrow up" class="key flex-grow [&>*:first-child]:hidden">
+         <button type="button" id="ArrowUp" title="arrow up" class="key flex-grow [&>*:first-child]:hidden">
             <span></span>
             <svg class="h-4 w-4 stroke-current">
                <use href="assets/icons.svg#caret-up"></use>
             </svg>
          </button>
-         <button type="button" id="ArrowDown" tabindex="-1" title="arrow down" class="key flex-grow [&>*:first-child]:hidden">
+         <button type="button" id="ArrowDown" title="arrow down" class="key flex-grow [&>*:first-child]:hidden">
             <span></span>
             <svg class="h-4 w-4 stroke-current">
                <use href="assets/icons.svg#caret-down"></use>
