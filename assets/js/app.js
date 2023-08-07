@@ -21,7 +21,8 @@ const detectDeviceAndDisplayWarn = () => {
 	const deviceIsDesktop = !(/Mobi|Android/i.test(deviceInfo) || /iPhone|iPad|iPod/i.test(deviceInfo));
 	if (deviceIsDesktop) return;
 
-	document.getElementById('warningModal').showModal();
+	const warningModal = document.getElementById('warningModal');
+	warningModal.showModal();
 	document.getElementById('closeModalBtn').addEventListener('click', () => warningModal.close(), { once: true });
 };
 
