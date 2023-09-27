@@ -1,6 +1,6 @@
-# Virtual Keyboard Progressive Web App
+# Virtual Keyboard PWA
 
-Virtual Keyboard PWA gives you an awesome virtual-typing experience!
+Virtual Keyboard Progressive Web App gives you an awesome virtual-typing experience!
 
 <figure>
   <img src="https://github.com/ShayanTheNerd/virtual-keyboard-PWA/blob/main/og-img.webp" />
@@ -10,32 +10,32 @@ Virtual Keyboard PWA gives you an awesome virtual-typing experience!
 
 <ul>
   <li>HTML, CSS, JavaScript</li>
+  <li>SVG Symbol Icons</li>
   <li>PWA</li>
   <li>
     <a href="https://tailwindcss.com">Tailwind CSS</a>
   </li>
-  <li>SVG Symbol Icons</li>
 </ul>
 
 ## Features
 
 <ul>
   <li>Semantic, clean, and extendable code</li>
-  <li>Dark Mode</li>
-  <li>Typing Sound Effect</li>
-  <li>Sound Control</li>
-  <li>Virtual Typing Effect</li>
-  <li>Dynamically-Generated Keyboard Keys</li>
-  <li>PWA Features & Offline Mode</li>
+  <li>Dark mode</li>
+  <li>Typing sound effect</li>
+  <li>Sound control</li>
+  <li>Virtual typing effect</li>
+  <li>Dynamically-generated keyboard keys</li>
+  <li>Multi-platform, progressive web app</li>
 </ul>
 
 ## How it works
 
-Just start typing on your keyboard and watch the flow of your fingers on the virtual keyboard. Alternatively, you can type by directly clicking on the keys. Both ways play a typing sound effect in the background and change the position of keys to make it more realistic. Also, in the PWA version, you can install it directly on your device, then you're able to use it even offline!
+Just start typing on your keyboard and watch the flow of your fingers on the screen alongside a typing sound effect played in the background. Also, you can install it directly on your device and use it even offline!
 
 ## Development setup
 
-#### First, clone the project:
+#### First, you need to clone the project:
 
 ```sh
 git clone https://github.com/ShayanTheNerd/virtual-keyboard-PWA.git
@@ -49,30 +49,22 @@ npm install -g degit
 degit https://github.com/ShayanTheNerd/virtual-keyboard-PWA new-project-folder
 ```
 
-#### Then, install necessary npm packages:
+#### Then, install corresponding packages and start the dev server:
 
 ```sh
-npm i
-```
+pnpm i
 
-#### Finally, run the `dev` script and preview project on a local server:
-
-```sh
-npm run dev
-```
-
-#### In order to format the code with Prettier, install the extension on your code editor. Then, either enable the `"editor.formatOnSave": true` (or a similar option) in the settings, or manually run this command:
-
-```sh
-npm run format
+pnpm run dev
 ```
 
 ## Deployment and production
 
-#### Before deploying the project, run this command to minify all CSS code and prepare for production:
+Before deploying the project or creating a new pull request, run the following commands and make sure there are no errors:
 
 ```sh
-npm run build
+pnpm run format
+
+pnpm run build
 ```
 
 ## Style Guide
@@ -80,11 +72,12 @@ npm run build
 If you want to develop this project, please stick to these rules:
 
 <ul>
-  <li>Follow the current architecture, coding paradigm, and project folder structure</li>
-  <li>Follow the current character case principals for ids, classes, variables, file and folder names, etc.</li>
-  <li>Code based on the current libraries, frameworks, and packages included in the project</li>
-  <li>Use <a href="https://getbem.com">BEM</a> methodology for naming CSS classes</li>
-  <li>If you need to access an HTML element in JavaScript by its class name, prefix its class name with <code>js-</code></li>
+  <li>Follow the current architecture, coding paradigm, and project folder structure.</li>
+  <li>Follow the current character case principals for ids, classes, variables, files and folder names, etc.</li>
+  <li>Code based on the current libraries, frameworks, and packages included in the project.</li>
+  <li>For styling, utilize Tailwind's features as much as possible, but also make sure to use the <a href="https://getbem.com">BEM</a> methodology for naming custom CSS classes.</li>
+  <li>In case you need to access an HTML element in JavaScript by a class name, prefix the class name with <code>js-</code>.</li>
+  <li>Add Git commit messages considering <a href="https://www.conventionalcommits.org/">Conventional Commits</a>.</li>
 </ul>
 
 ## Contribution
@@ -92,21 +85,21 @@ If you want to develop this project, please stick to these rules:
 Your contribution is always welcome, please follow these steps:
 
 <ol>
-  <li>Fork the project (https://github.com/ShayanTheNerd/virtual-keyboard-PWA/fork)</li>
-  <li>Create your feature branch (<code>git checkout -b feature/branch-name</code>)</li>
-  <li>Make sure you follow instructions in the <a href="https://github.com/ShayanTheNerd/virtual-keyboard-PWA#style-guide">style guide</a></li>
-  <li>Commit your changes (<code>git commit -am 'Added foo bar baz feature'</code>)</li>
-  <li>Push to the branch (<code>git push origin feature/branch-name</code>)</li>
-  <li>Create a new Pull Request</li>
+  <li>Fork the project (https://github.com/ShayanTheNerd/virtual-keyboard-PWA/fork).</li>
+  <li>Create your feature branch (<code>git checkout -b feature/branch-name</code>).</li>
+  <li>Make sure you follow instructions in the <a href="https://github.com/ShayanTheNerd/virtual-keyboard-PWA#style-guide">style guide</a>.</li>
+  <li>Commit your changes (<code>git commit -m 'feat: add foo bar baz'</code>).</li>
+  <li>Push to the branch (<code>git push origin feature/branch-name</code>).</li>
+  <li>Create a new Pull Request.</li>
 </ol>
 
 ## Links
 
 Project homepage: https://shayanthenerd.github.io/virtual-keyboard-PWA <br /><br />
-Repository: https://github.com/ShayanTheNerd/virtual-keyboard-PWA <br /><br />
+GitHub repository: https://github.com/ShayanTheNerd/virtual-keyboard-PWA <br /><br />
 Issues: https://github.com/ShayanTheNerd/virtual-keyboard-PWA/issues <br /><br />
 Pull requests: https://github.com/ShayanTheNerd/virtual-keyboard-PWA/pulls <br /><br />
-More projects like this: https://github.com/ShayanTheNerd?tab=repositories <br /><br />
+Other projects: https://github.com/ShayanTheNerd?tab=repositories <br /><br />
 
 ## Author
 
