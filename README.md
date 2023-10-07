@@ -1,65 +1,92 @@
-# Virtual Keyboard PWA
+<h1>Virtual Keyboard PWA</h1>
 
-Virtual Keyboard Progressive Web App gives you an awesome virtual-typing experience!
-
+<p>
+   Virtual Keyboard Progressive Web App allows you to experience virtual typing.
+</p>
 <figure>
-  <img src="https://github.com/ShayanTheNerd/virtual-keyboard-PWA/blob/main/og-img.webp" />
+   <img src="https://github.com/ShayanTheNerd/virtual-keyboard-PWA/blob/main/og-img.webp" alt="Virtual Keyboard PWA preview" />
 </figure>
 
-## Technologies used in this project
-
+<h2>Overview</h2>
+<h3>The challenge</h3>
+<p>Users should be able to:</p>
 <ul>
-  <li>HTML, CSS, JavaScript</li>
-  <li>SVG Symbol Icons</li>
-  <li>PWA</li>
-  <li>
-    <a href="https://tailwindcss.com">Tailwind CSS</a>
-  </li>
+   <li>Recieve a firendly warning if they're previweing website on a non-desktop device (mobile, tablet, etc.).</li>
+   <li>Have the theme match up with their system preference or toggle it manually.</li>
+   <li>Hear a typing sound effect as they type, and also switch it off if they wish.</li>
+   <li>Install the website just like a native app and use it even offline!</li>
 </ul>
 
-## Features
-
+<h3>Links</h3>
 <ul>
-  <li>Semantic, clean, and extendable code</li>
-  <li>Dark mode</li>
-  <li>Typing sound effect</li>
-  <li>Sound control</li>
-  <li>Virtual typing effect</li>
-  <li>Dynamically-generated keyboard keys</li>
-  <li>Multi-platform, progressive web app</li>
+   <li>
+      <a href="https://shayanthenerd.github.io/virtual-keyboard-PWA">Project homepage</a>
+   </li>
+   <li>
+      <a href="https://github.com/ShayanTheNerd/virtual-keyboard-PWA">GitHub repository</a>
+   </li>
+   <li>
+      <a href="https://github.com/ShayanTheNerd/virtual-keyboard-PWA/issues">Issues</a>
+   </li>
+   <li>
+      <a href="https://github.com/ShayanTheNerd/virtual-keyboard-PWA/pulls">Pull requests</a>
+   </li>
+   <li>
+      <a href="https://github.com/ShayanTheNerd?tab=repositories">My other projects</a>
+   </li>
 </ul>
 
-## How it works
+<h2>My process</h2>
+<h3>Built with:</h3>
+<ul>
+   <li>Semantic HTML</li>
+   <li>
+      <a href="https://tailwindcss.com">Tailwind CSS</a> - Styling
+   </li>
+   <li>Vanilla JavaScript</li>
+</ul>
 
-Just start typing on your keyboard and watch the flow of your fingers on the screen alongside a typing sound effect played in the background. Also, you can install it directly on your device and use it even offline!
+<h3>I learned:</h3>
+<ul>
+   <li>How to programatically play an audio file.</li>
+   <li>How PWAs work and how to implement one.</li>
+   <li>How to handle theme switching and also detect user's preferences.</li>
+   <li>How to dynamically generate keyboard keys while handling the many exceptions.</li>
+</ul>
 
-## Development setup
-
-#### First, you need to clone the project:
+<h2>Development setup</h2>
+<p>1. First, you need to clone the project:</p>
 
 ```sh
 git clone https://github.com/ShayanTheNerd/virtual-keyboard-PWA.git
 ```
 
-Alternatively, you can copy the source of the project directly to your local environment using <a href="https://github.com/Rich-Harris/degit">Degit</a>:
+<p>
+   Alternatively, you can copy the source of the project directly to your local environment using <a href="https://github.com/Rich-Harris/degit">Degit</a>:
+</p>
 
 ```sh
-npm install -g degit
+pnpm i -g degit
 
 degit https://github.com/ShayanTheNerd/virtual-keyboard-PWA new-project-folder
 ```
 
-#### Then, install corresponding packages and start the dev server:
+<p>2. Then, install required packages:</p>
 
 ```sh
 pnpm i
+```
 
+<p>3. Finally, run the <code>dev</code> script to start the dev server.:</p>
+
+```sh
 pnpm run dev
 ```
 
-## Deployment and production
+<p>Now, you can preview the project on a local server of your choice. My personal recommendation is the <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Live Server Extension</a>.</p>
 
-Before deploying the project or creating a new pull request, run the following commands and make sure there are no errors:
+<h2>Deployment and production</h2>
+<p>Before deploying the project or creating a new pull request, run the following commands and make sure there are no errors:</p>
 
 ```sh
 pnpm run format
@@ -67,47 +94,36 @@ pnpm run format
 pnpm run build
 ```
 
-## Style Guide
-
-If you want to develop this project, please stick to these rules:
-
+<h2>Style Guide</h2>
+<p>If you want to develop this project, please stick to these rules:</p>
 <ul>
-  <li>Follow the current architecture, coding paradigm, and project folder structure.</li>
-  <li>Follow the current character case principals for ids, classes, variables, files and folder names, etc.</li>
-  <li>Code based on the current libraries, frameworks, and packages included in the project.</li>
-  <li>For styling, utilize Tailwind's features as much as possible, but also make sure to use the <a href="https://getbem.com">BEM</a> methodology for naming custom CSS classes.</li>
-  <li>In case you need to access an HTML element in JavaScript by a class name, prefix the class name with <code>js-</code>.</li>
-  <li>Add Git commit messages considering <a href="https://www.conventionalcommits.org/">Conventional Commits</a>.</li>
+   <li>Follow the current architecture, coding paradigm, and project folder structure.</li>
+   <li>Follow the current character case principals for ids, classes, variables, file and folder names, etc.</li>
+   <li>Code based on the current libraries, frameworks, and packages included in the project.</li>
+   <li>For styling, utilize Tailwind's features as much as possible, but also make sure to use <a href="https://getbem.com">BEM</a> methodology for naming custom CSS classes.</li>
+   <li>In case you need to access an HTML element in JavaScript by a class name, prefix the class name with <code>js-</code>. For example, <code>js-submit-btn</code>.</li>
+   <li>Add Git commit messages considering <a href="https://www.conventionalcommits.org">Conventional Commits</a>.</li>
 </ul>
 
-## Contribution
-
-Your contribution is always welcome, please follow these steps:
-
+<h2>Contribution</h2>
+<p>Your contribution is always welcome, please follow these steps:</p>
 <ol>
-  <li>Fork the project (https://github.com/ShayanTheNerd/virtual-keyboard-PWA/fork).</li>
-  <li>Create your feature branch (<code>git checkout -b feature/branch-name</code>).</li>
-  <li>Make sure you follow instructions in the <a href="https://github.com/ShayanTheNerd/virtual-keyboard-PWA#style-guide">style guide</a>.</li>
-  <li>Commit your changes (<code>git commit -m 'feat: add foo bar baz'</code>).</li>
-  <li>Push to the branch (<code>git push origin feature/branch-name</code>).</li>
-  <li>Create a new Pull Request.</li>
+   <li>
+      <a href="https://github.com/ShayanTheNerd/virtual-keyboard-PWA/fork">Fork the project</a>.
+   </li>
+   <li>Create your feature branch: <code>git checkout -b feature/branch-name</code>.</li>
+   <li>Make sure to follow instructions in the <a href="https://github.com/ShayanTheNerd/virtual-keyboard-PWA#style-guide">style guide</a> section.</li>
+   <li>Stage all changes you made: <code>git add -A</code>.</li>
+   <li>Commit all staged changes with a descriptive commit message: <code>git commit -m 'feat: add foo bar baz'</code>.</li>
+   <li>Push everything to your feature branch: <code>git push origin feature/branch-name</code>.</li>
+   <li>Create a new Pull Request.</li>
 </ol>
 
-## Links
-
-Project homepage: https://shayanthenerd.github.io/virtual-keyboard-PWA <br /><br />
-GitHub repository: https://github.com/ShayanTheNerd/virtual-keyboard-PWA <br /><br />
-Issues: https://github.com/ShayanTheNerd/virtual-keyboard-PWA/issues <br /><br />
-Pull requests: https://github.com/ShayanTheNerd/virtual-keyboard-PWA/pulls <br /><br />
-Other projects: https://github.com/ShayanTheNerd?tab=repositories <br /><br />
-
-## Author
-
-<a href="https://shayan-zamani.me">Shayan Zamani</a>
-
-## License
-
-The code in this project is licensed under <a href="https://github.com/ShayanTheNerd/virtual-keyboard-PWA/blob/main/LICENSE.md">MIT license</a>. You're free to use it; but a link to this page and mentioning the author's name is mandatory.
+<h2>License</h2>
+<p>
+   This project is licensed under <a href="https://github.com/ShayanTheNerd/virtual-keyboard-PWA/blob/main/LICENSE.md">MIT license</a>. You're free to use it, but a link to this page and mentioning the author's name is mandatory. Created by <a href="https://shayan-zamani.me">Shayan Zamani</a>.
+</p>
 
 <br />
-<a href="https://github.com/ShayanTheNerd/virtual-keyboard-PWA#readme">back to top ⬆️</a>
+
+<a href="https://github.com/ShayanTheNerd/virtual-keyboard-PWA#virtual-keyboard-PWA">back to top ⬆️</a>
