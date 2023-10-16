@@ -77,7 +77,7 @@ degit https://github.com/ShayanTheNerd/virtual-keyboard-PWA new-project-folder
 pnpm i
 ```
 
-<p>3. Finally, run the <code>dev</code> script to start the dev server.:</p>
+<p>3. Finally, run the <code>dev</code> script to start the dev server:</p>
 
 ```sh
 pnpm run dev
