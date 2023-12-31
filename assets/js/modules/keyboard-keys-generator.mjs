@@ -12,7 +12,7 @@ export default function generateKeyboardKeys(keyboard, keys) {
 			const { mainCharacter = '', keyId = '', extraCharacterMarkup, extraAttribute, extraClasses } = key;
 			/* prettier-ignore */
 			const keyMarkup = /* html */ `
-            <button type="button" id="${keyId}" ${extraAttribute ?? ''} class="key ${extraClasses?.join(' ') ?? ''}">
+            <button type="button" tabindex="-1" ${extraAttribute ?? ''} id="${keyId}" class="key ${extraClasses?.join(' ') ?? ''}">
                <span>${mainCharacter}</span>
                ${extraCharacterMarkup || ''}
             </button>
@@ -24,13 +24,13 @@ export default function generateKeyboardKeys(keyboard, keys) {
 	// Generate and add double-arrow keys
 	const doubleCaretsMarkup = /* html */ `
       <div class="flex min-w-18.75 flex-col gap-1">
-         <button type="button" title="arrow up" id="arrow_up" class="key flex-grow [&>*:first-child]:hidden">
+         <button type="button" tabindex="-1" title="Arrow up" id="arrow_up" class="key flex-grow [&>*:first-child]:hidden">
             <span></span>
             <svg class="size-4 stroke-current">
                <use href="assets/icons.svg#caret_up"></use>
             </svg>
          </button>
-         <button type="button" title="arrow down" id="arrow_down" class="key flex-grow [&>*:first-child]:hidden">
+         <button type="button" tabindex="-1" title="Arrow down" id="arrow_down" class="key flex-grow [&>*:first-child]:hidden">
             <span></span>
             <svg class="size-4 stroke-current">
                <use href="assets/icons.svg#caret_down"></use>

@@ -65,7 +65,7 @@
 	}
 
 	.key {
-		@apply hover:key--pressed flex min-w-15 items-center justify-around rounded-md bg-charcoal p-0.5 tracking-wide shadow-[0_4px_0_0_#00000033];
+		@apply active:key--pressed flex min-w-15 cursor-default items-center justify-around rounded-md bg-charcoal p-0.5 tracking-wide shadow-[0_4px_0_0_#00000033];
 	}
 	.key--double-characters {
 		@apply flex-col-reverse;

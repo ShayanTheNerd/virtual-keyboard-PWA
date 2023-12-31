@@ -455,7 +455,7 @@ export default [
 		{
 			keyId: 'Space',
 			mainCharacter: '',
-			extraAttribute: ['title="space"'],
+			extraAttribute: ['title="Space"'],
 			extraClasses: ['min-w-[324px]'],
 		},
 		{
@@ -470,7 +470,7 @@ export default [
 		{
 			keyId: 'ArrowLeft',
 			mainCharacter: '',
-			extraAttribute: ['title="arrow left"'],
+			extraAttribute: ['title="Arrow left"'],
 			extraClasses: ['[&>*:first-child]:hidden'],
 			extraCharacterMarkup: /* html */ `
             <svg class="size-4 stroke-current">
@@ -481,7 +481,7 @@ export default [
 		{
 			keyId: 'ArrowRight',
 			mainCharacter: '',
-			extraAttribute: ['title="arrow right"'],
+			extraAttribute: ['title="Arrow right"'],
 			extraClasses: ['rounded-br-inherit', '[&>*:first-child]:hidden'],
 			extraCharacterMarkup: /* html */ `
             <svg class="size-4 stroke-current">

@@ -5,9 +5,6 @@ export default {
 	darkMode: ['class', '[data-theme="dark"]'],
 	future: { hoverOnlyWhenSupported: true },
 	theme: {
-		screens: {
-			lg: '1014px',
-		},
 		extend: {
 			colors: {
 				charcoal: '#353535',
