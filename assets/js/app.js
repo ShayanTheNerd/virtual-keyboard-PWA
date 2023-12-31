@@ -9,7 +9,7 @@ const textBox = document.getElementById('text_box');
 const keyboard = document.getElementById('keyboard');
 
 // Global functions
-const focusOnTextarea = () => textBox.focus();
+const focusOnTextBox = () => textBox.focus();
 
 const detectCapsLockState = event => {
 	const capsLockLight = document.getElementById('caps_lock_light');
@@ -63,7 +63,7 @@ const simulateTyping = event => {
 		if (!key || target.id === 'capsLockLight') return;
 
 		if (soundIsOn) typingSound.play();
-		focusOnTextarea();
+		focusOnTextBox();
 
 		if (target.closest('#fn_keys_row')) return;
 
@@ -75,11 +75,11 @@ const simulateTyping = event => {
 				break;
 			}
 			case 'backspace': {
-				textarea.value = textarea.value.slice(0, -1);
+				textBox.value = textBox.value.slice(0, -1);
 				break;
 			}
 			case 'tab': {
-				textarea.value += '    ';
+				textBox.value += '    ';
 				break;
 			}
 			case 'caps lock': {
@@ -87,20 +87,20 @@ const simulateTyping = event => {
 				break;
 			}
 			case 'enter': {
-				textarea.value += '\n';
+				textBox.value += '\n';
 				break;
 			}
 			default: {
-				textarea.value += document.querySelector('.capslock-light') ? keyCharacter : keyCharacter.toLowerCase();
+				textBox.value += document.querySelector('.capslock-light') ? keyCharacter : keyCharacter.toLowerCase();
 				break;
 			}
 		}
-		if (key.id === 'Space') textarea.value += ' ';
+		if (key.id === 'Space') textBox.value += ' ';
 	}
 
 	if (type === 'keydown') {
 		if (soundIsOn) typingSound.play();
-		if (code !== 'Tab') focusOnTextarea();
+		if (code !== 'Tab') focusOnTextBox();
 		detectCapsLockState(event);
 
 		document.getElementById(getKeyId(key))?.classList.add('key--pressed');
@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	generateKeyboardKeys(keyboard, keys);
 	determineAndApplyTheme();
 	detectDeviceAndDisplayWarn();
-	focusOnTextarea();
+	focusOnTextBox();
 
 	// Register the Service Worker
 	navigator.serviceWorker.register('./assets/js/modules/service-worker-PWA.mjs'); // URL from the project root
@@ -122,8 +122,8 @@ document.addEventListener('DOMContentLoaded', () => {
 {
 	// Clear text box
 	document.getElementById('clear_text_box_btn').addEventListener('click', () => {
-		textarea.value = '';
-		focusOnTextarea();
+		textBox.value = '';
+		focusOnTextBox();
 	});
 
 	// Change the theme
