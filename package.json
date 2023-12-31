@@ -7,15 +7,6 @@
 		"url": "https://shayan-zamani.me/",
 		"email": "sh.zamani384@gmail.com"
 	},
-	"keywords": [
-		"html css js",
-		"light/dark mode",
-		"virtual keyboard",
-		"responsive design",
-		"progressive web app",
-		"tailwindcss CLI template"
-	],
-	"description": "Experience virtual typing with Virtual Keyboard Progressive Web App!",
 	"repository": {
 		"type": "git",
 		"directory": "virtual-keyboard-PWA-PWA",
@@ -26,9 +17,9 @@
 		"url": "https://github.com/ShayanTheNerd/virtual-keyboard-PWA/issues"
 	},
 	"devDependencies": {
-		"prettier": "^2.8.7",
-		"prettier-plugin-tailwindcss": "^0.2.6",
-		"tailwindcss": "^3.3.1"
+		"prettier": "^3.1.1",
+		"prettier-plugin-tailwindcss": "^0.5.10",
+		"tailwindcss": "^3.4.0"
 	},
 	"scripts": {
 		"format": "npx prettier --write .",

@@ -1,5 +1,5 @@
-// app files to cache
-const CACHE_VERSION = 1.2;
+// Files to cache
+const CACHE_VERSION = '1.0.0';
 const appCacheName = `Virtual_Keyboard-v${CACHE_VERSION}`;
 const appContentToCache = [
 	'../../../',
@@ -27,7 +27,7 @@ const appContentToCache = [
 	'../../../virtual-keyboard.webmanifest',
 ];
 
-// installing Service Worker
+// Install the Service Worker
 self.addEventListener('install', event => {
 	const cacheAppContent = async (name, content) => {
 		const cache = await caches.open(name);
@@ -37,12 +37,12 @@ self.addEventListener('install', event => {
 	event.waitUntil(cacheAppContent(appCacheName, appContentToCache));
 });
 
-// fetching content using Service Worker
+// Fetch content using the Service Worker
 self.addEventListener('fetch', event => {
 	/* prettier-ignore */
 	const { request, request: { url } } = event;
 
-	if (!url.startsWith(/http(|s):/g)) return; // only cache 'http' and 'https' protocols
+	if (!url.startsWith(/http(|s):/g)) return; // only cache “http” and “https” protocols
 
 	const getCacehdContent = async () => {
 		const cachedContent = await caches.match(request);

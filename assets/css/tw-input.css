@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* custom properties for gradient colors */
+/* Custom properties for gradient colors */
 @property --gradient-color-start {
 	syntax: '<color>';
 	inherits: true;
@@ -16,23 +16,29 @@
 
 @layer base {
 	:where(button, a):focus-visible {
-		@apply outline outline-[2.5px] outline-offset-[3px] outline-transparent;
+		@apply outline outline-2.5px outline-offset-3px outline-transparent;
 	}
 }
 
 @layer utilities {
-	/* applying transition to gradient background */
-	.bg-gradient-zinc-300-to-400 {
-		--gradient-color-start: #d4d4d8; /* zinc-300 */
-		--gradient-color-end: #a1a1aa; /* zinc-400 */
+	/* Apply transition on gradient background */
+	.bg-zinc-300-to-400 {
+		--gradient-color-start: theme('colors.zinc.300');
+		--gradient-color-end: theme('colors.zinc.400');
+
 		background-image: linear-gradient(to bottom, var(--gradient-color-start), var(--gradient-color-end));
-		transition: --gradient-color-start 500ms, --gradient-color-end 500ms !important;
+		transition:
+			--gradient-color-start 500ms,
+			--gradient-color-end 500ms !important;
 	}
-	.bg-gradient-zinc-400-to-500 {
-		--gradient-color-start: #a1a1aa; /* zinc-400 */
-		--gradient-color-end: #71717a; /* zinc-500 */
+	.bg-zinc-400-to-500 {
+		--gradient-color-start: theme('colors.zinc.400');
+		--gradient-color-end: theme('colors.zinc.500');
+
 		background-image: linear-gradient(to bottom, var(--gradient-color-start), var(--gradient-color-end));
-		transition: --gradient-color-start 500ms, --gradient-color-end 500ms !important;
+		transition:
+			--gradient-color-start 500ms,
+			--gradient-color-end 500ms !important;
 	}
 
 	.key--pressed {
@@ -41,15 +47,17 @@
 }
 
 @layer components {
-	.click-effect {
+	.ripple-effect {
 		@apply relative overflow-hidden before:absolute before:inset-0 before:-z-10 before:scale-[10] before:bg-[radial-gradient(circle,black_10%,transparent_10.01%)] before:opacity-0 active:before:scale-0 active:before:opacity-10 active:before:transition-none;
 	}
-	.click-effect::before {
-		transition: all 0.5s, opacity 1s;
+	.ripple-effect::before {
+		transition:
+			all 0.5s,
+			opacity 1s;
 	}
 
 	.btn {
-		@apply click-effect z-10 flex h-11 flex-initial basis-[90px] items-center justify-center rounded-lg px-2 font-medium capitalize tracking-wide shadow duration-150 lg:h-10 lg:min-w-[100px] lg:text-lg support:hover:shadow-sm;
+		@apply ripple-effect z-10 flex h-11 flex-initial basis-22.5 items-center justify-center rounded-lg px-2 font-medium capitalize tracking-wide shadow duration-150 hover:shadow-sm lg:h-10 lg:min-w-25 lg:text-lg;
 	}
 
 	.capslock-light {
@@ -57,9 +65,8 @@
 	}
 
 	.key {
-		@apply support:hover:key--pressed flex min-w-[60px] items-center justify-around rounded-md bg-charcoal p-0.5 tracking-wide shadow-[0_4px_0_0_#00000033];
+		@apply hover:key--pressed flex min-w-15 items-center justify-around rounded-md bg-charcoal p-0.5 tracking-wide shadow-[0_4px_0_0_#00000033];
 	}
-
 	.key--double-characters {
 		@apply flex-col-reverse;
 	}

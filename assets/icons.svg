@@ -1,5 +1,5 @@
-<svg>
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 96 256 124" id="keyboard-dark">
+<svg xmlns="http://www.w3.org/2000/svg">
+	<symbol viewBox="0 96 256 124" id="keyboard-dark">
 		<g
 			stroke-miterlimit="10"
 			stroke-width="0"
@@ -25,7 +25,7 @@
 		</g>
 	</symbol>
 
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 96 256 124" id="keyboard-light">
+	<symbol viewBox="0 96 256 124" id="keyboard-light">
 		<g
 			fill="none"
 			stroke-miterlimit="10"
@@ -51,13 +51,13 @@
 		</g>
 	</symbol>
 
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="close-x">
+	<symbol viewBox="0 0 24 24" id="close-x">
 		<path
 			stroke="none"
 			d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10s10-4.47 10-10S17.53 2 12 2zm4.3 14.3a.996.996 0 0 1-1.41 0L12 13.41L9.11 16.3a.996.996 0 1 1-1.41-1.41L10.59 12L7.7 9.11A.996.996 0 1 1 9.11 7.7L12 10.59l2.89-2.89a.996.996 0 1 1 1.41 1.41L13.41 12l2.89 2.89c.38.38.38 1.02 0 1.41z"></path>
 	</symbol>
 
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="speaker-on">
+	<symbol viewBox="0 0 24 24" id="speaker-on">
 		<path
 			fill="none"
 			stroke-linecap="round"
@@ -66,7 +66,7 @@
 			d="M15 8a5 5 0 0 1 0 8m2.7-11a9 9 0 0 1 0 14M6 15H4a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1h2l3.5-4.5A.8.8 0 0 1 11 5v14a.8.8 0 0 1-1.5.5L6 15"></path>
 	</symbol>
 
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="speaker-low">
+	<symbol viewBox="0 0 24 24" id="speaker-low">
 		<path
 			fill="none"
 			stroke-linecap="round"
@@ -75,7 +75,7 @@
 			d="M15 8a5 5 0 0 1 0 8m-9-1H4a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1h2l3.5-4.5A.8.8 0 0 1 11 5v14a.8.8 0 0 1-1.5.5L6 15"></path>
 	</symbol>
 
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="speaker-off">
+	<symbol viewBox="0 0 24 24" id="speaker-off">
 		<path
 			fill="none"
 			stroke-linecap="round"
@@ -84,25 +84,25 @@
 			d="M6 15H4a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1h2l3.5-4.5A.8.8 0 0 1 11 5v14a.8.8 0 0 1-1.5.5L6 15m10-5l4 4m0-4l-4 4"></path>
 	</symbol>
 
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" id="screen-share">
+	<symbol viewBox="0 0 36 36" id="screen-share">
 		<path stroke="none" d="M28 8H14a2 2 0 0 0-2 2v2h2v-2h14v10h-2v2h2a2 2 0 0 0 2-2V10a2 2 0 0 0-2-2Z"></path>
 		<path
 			stroke="none"
 			d="M22 14H8a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V16a2 2 0 0 0-2-2ZM8 26V16h14v10Z"></path>
 	</symbol>
 
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="microphone-muted">
+	<symbol viewBox="0 0 32 32" id="microphone-muted">
 		<path
 			stroke="none"
 			d="M23 17a7 7 0 0 1-11.73 5.14l1.42-1.41A5 5 0 0 0 21 17v-4.58l9-9L28.59 2L2 28.59L3.41 30l6.44-6.44A8.91 8.91 0 0 0 15 25.94V28h-4v2h10v-2h-4v-2.06A9 9 0 0 0 25 17v-3h-2zm-14 .32V14H7v3a9 9 0 0 0 .25 2.09zM20.76 5.58A5 5 0 0 0 11 7v8.34z"></path>
 	</symbol>
 
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 -1 16 19" id="moon">
+	<symbol viewBox="0 -1 16 19" id="moon">
 		<path
 			d="M6 .278a.768.768 0 0 1 .08.858a7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277c.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316a.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71C0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"></path>
 	</symbol>
 
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" id="sun-small">
+	<symbol viewBox="0 0 14 14" id="sun-small">
 		<g fill="none" stroke-linecap="round" stroke-linejoin="round">
 			<circle cx="7" cy="7" r="3.25"></circle>
 			<path
@@ -110,7 +110,7 @@
 		</g>
 	</symbol>
 
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" id="sun-big">
+	<symbol viewBox="0 0 14 14" id="sun-big">
 		<g fill="none" stroke-linecap="round" stroke-linejoin="round">
 			<circle cx="7" cy="7" r="2.5"></circle>
 			<path
@@ -118,39 +118,35 @@
 		</g>
 	</symbol>
 
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" id="tab-arrow-left">
-		<path
-			fill="none"
-			stroke-linecap="round"
-			stroke-linejoin="round"
-			d="M13.5 7h-10M7 3.5L3.5 7L7 10.5m-6.5-7v7"></path>
+	<symbol viewBox="0 0 14 14" id="tab-arrow-left">
+		<path fill="none" stroke-linecap="round" stroke-linejoin="round" d="M13.5 7h-10M7 3.5L3.5 7L7 10.5m-6.5-7v7"></path>
 	</symbol>
 
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" id="tab-arrow-right">
+	<symbol viewBox="0 0 14 14" id="tab-arrow-right">
 		<path fill="none" stroke-linecap="round" stroke-linejoin="round" d="M.5 7h10M7 10.5L10.5 7L7 3.5m6.5 0v7"></path>
 	</symbol>
 
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" id="enter-arrow-curve-left">
+	<symbol viewBox="0 0 14 14" id="enter-arrow-curve-left">
 		<g fill="none" stroke-linecap="round" stroke-linejoin="round">
 			<path d="m3.5 11.5l-3-3l3-3"></path>
 			<path d="M13.5 2.5v2a4 4 0 0 1-4 4h-9"></path>
 		</g>
 	</symbol>
 
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" id="windows-logo">
+	<symbol viewBox="0 0 1024 1024" id="windows-logo">
 		<path
 			d="M523.8 191.4v288.9h382V128.1zm0 642.2l382 62.2v-352h-382zM120.1 480.2H443V201.9l-322.9 53.5zm0 290.4L443 823.2V543.8H120.1z"></path>
 	</symbol>
 
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" id="arrow-up">
+	<symbol viewBox="0 0 14 14" id="arrow-up">
 		<path fill="none" stroke-linecap="round" stroke-linejoin="round" d="M7 13.5V.5M10.5 4L7 .5L3.5 4"></path>
 	</symbol>
 
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" id="arrow-left">
+	<symbol viewBox="0 0 14 14" id="arrow-left">
 		<path fill="none" stroke-linecap="round" stroke-linejoin="round" d="M13.5 7H.5M4 3.5L.5 7L4 10.5"></path>
 	</symbol>
 
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" id="caret-up">
+	<symbol viewBox="0 0 14 14" id="caret-up">
 		<path
 			fill="none"
 			stroke-linecap="round"
@@ -158,7 +154,7 @@
 			d="M.5 10.15L6.65 4a.48.48 0 0 1 .7 0l6.15 6.15"></path>
 	</symbol>
 
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" id="caret-right">
+	<symbol viewBox="0 0 14 14" id="caret-right">
 		<path
 			fill="none"
 			stroke-linecap="round"
@@ -166,7 +162,7 @@
 			d="M3.85.5L10 6.65a.48.48 0 0 1 0 .7L3.85 13.5"></path>
 	</symbol>
 
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" id="caret-down">
+	<symbol viewBox="0 0 14 14" id="caret-down">
 		<path
 			fill="none"
 			stroke-linecap="round"
@@ -174,7 +170,7 @@
 			d="M.5 3.85L6.65 10a.48.48 0 0 0 .7 0l6.15-6.15"></path>
 	</symbol>
 
-	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" id="caret-left">
+	<symbol viewBox="0 0 14 14" id="caret-left">
 		<path
 			fill="none"
 			stroke-linecap="round"

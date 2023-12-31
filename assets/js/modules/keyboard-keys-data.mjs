@@ -1,10 +1,10 @@
 export default [
-	// row 1
+	// Row 1
 	[
 		{
 			keyId: 'Escape',
 			mainCharacter: 'esc',
-			extraClasses: ['min-w-fit', 'basis-full', 'rounded-tl-[inherit]'],
+			extraClasses: ['min-w-fit', 'basis-full', 'rounded-tl-inherit'],
 		},
 		{
 			keyId: 'F1',
@@ -21,8 +21,8 @@ export default [
 			mainCharacter: 'f3',
 			extraClasses: ['min-w-fit', 'basis-full'],
 			extraCharacterMarkup: /* html */ `
-            <svg class="h-4 w-4 rounded border fill-current p-px">
-               <use href="assets/icons.svg#moon"></use>
+            <svg class="size-4 rounded border fill-current p-px">
+               <use href="./assets/icons.svg#moon" />
             </svg>
          `,
 		},
@@ -31,8 +31,8 @@ export default [
 			mainCharacter: 'f4',
 			extraClasses: ['min-w-fit', 'basis-full'],
 			extraCharacterMarkup: /* html */ `
-            <svg class="h-4 w-4 rounded border fill-current">
-               <use href="assets/icons.svg#screen-share"></use>
+            <svg class="size-4 rounded border fill-current">
+               <use href="./assets/icons.svg#screen-share" />
             </svg>
          `,
 		},
@@ -46,8 +46,8 @@ export default [
 			mainCharacter: 'f6',
 			extraClasses: ['min-w-fit', 'basis-full'],
 			extraCharacterMarkup: /* html */ `
-            <svg class="h-4 w-4 rounded border stroke-current">
-               <use href="assets/icons.svg#speaker-low"></use>
+            <svg class="size-4 rounded border stroke-current">
+               <use href="./assets/icons.svg#speaker-low" />
             </svg>
          `,
 		},
@@ -56,8 +56,8 @@ export default [
 			mainCharacter: 'f7',
 			extraClasses: ['min-w-fit', 'basis-full'],
 			extraCharacterMarkup: /* html */ `
-            <svg class="h-4 w-4 rounded border stroke-current">
-               <use href="assets/icons.svg#speaker-on"></use>
+            <svg class="size-4 rounded border stroke-current">
+               <use href="./assets/icons.svg#speaker-on" />
             </svg>
          `,
 		},
@@ -66,8 +66,8 @@ export default [
 			mainCharacter: 'f8',
 			extraClasses: ['min-w-fit', 'basis-full'],
 			extraCharacterMarkup: /* html */ `
-            <svg class="h-4 w-4 rounded border fill-current p-px">
-               <use href="assets/icons.svg#microphone-muted"></use>
+            <svg class="size-4 rounded border fill-current p-px">
+               <use href="./assets/icons.svg#microphone-muted" />
             </svg>
          `,
 		},
@@ -76,8 +76,8 @@ export default [
 			mainCharacter: 'f9',
 			extraClasses: ['min-w-fit', 'basis-full'],
 			extraCharacterMarkup: /* html */ `
-            <svg class="h-4 w-4 rounded border stroke-current p-px">
-               <use href="assets/icons.svg#sun-small"></use>
+            <svg class="size-4 rounded border stroke-current p-px">
+               <use href="./assets/icons.svg#sun-small" />
             </svg>
          `,
 		},
@@ -86,8 +86,8 @@ export default [
 			mainCharacter: 'f10',
 			extraClasses: ['min-w-fit', 'basis-full'],
 			extraCharacterMarkup: /* html */ `
-            <svg class="h-4 w-4 rounded border stroke-current p-px">
-               <use href="assets/icons.svg#sun-big"></use>
+            <svg class="size-4 rounded border stroke-current p-px">
+               <use href="./assets/icons.svg#sun-big" />
             </svg>
          `,
 		},
@@ -109,11 +109,11 @@ export default [
 		{
 			keyId: 'Delete',
 			mainCharacter: 'delete',
-			extraClasses: ['min-w-fit', 'basis-full', 'rounded-tr-[inherit]'],
+			extraClasses: ['min-w-fit', 'basis-full', 'rounded-tr-inherit'],
 		},
 	],
 
-	// row 2
+	// Row 2
 	[
 		{
 			keyId: 'Backquote',
@@ -198,26 +198,26 @@ export default [
 			mainCharacter: 'backspace',
 			extraClasses: ['w-[109px]', 'flex-col'],
 			extraCharacterMarkup: /* html */ `
-            <svg class="h-4 w-4 stroke-current">
-               <use href="assets/icons.svg#arrow-left"></use>
+            <svg class="size-4 stroke-current">
+               <use href="./assets/icons.svg#arrow-left" />
             </svg>
          `,
 		},
 	],
 
-	// row 3
+	// Row 3
 	[
 		{
 			keyId: 'Tab',
 			mainCharacter: 'tab',
-			extraClasses: ['min-w-[75px]'],
+			extraClasses: ['min-w-18.75'],
 			extraCharacterMarkup: /* html */ `
             <div>
-               <svg class="h-4 w-4 stroke-current">
-                  <use href="assets/icons.svg#tab-arrow-left"></use>
+               <svg class="size-4 stroke-current">
+                  <use href="./assets/icons.svg#tab-arrow-left" />
                </svg>
-               <svg class="h-4 w-4 stroke-current">
-                  <use href="assets/icons.svg#tab-arrow-right"></use>
+               <svg class="size-4 stroke-current">
+                  <use href="./assets/icons.svg#tab-arrow-right" />
                </svg>
             </div>
          `,
@@ -282,7 +282,7 @@ export default [
 		},
 	],
 
-	// row 4
+	// Row 4
 	[
 		{
 			keyId: 'CapsLock',
@@ -345,22 +345,22 @@ export default [
 			mainCharacter: 'enter',
 			extraClasses: ['w-[120px]', 'flex-col'],
 			extraCharacterMarkup: /* html */ `
-            <svg class="relative -top-0.5 h-4 w-4 stroke-current">
-               <use href="assets/icons.svg#enter-arrow-curve-left"></use>
+            <svg class="relative -top-0.5 size-4 stroke-current">
+               <use href="./assets/icons.svg#enter-arrow-curve-left" />
             </svg>
          `,
 		},
 	],
 
-	// row 5
+	// Row 5
 	[
 		{
 			keyId: 'ShiftLeft',
 			mainCharacter: 'shift',
 			extraClasses: ['min-w-[126px]', 'justify-center'],
 			extraCharacterMarkup: /* html */ `
-            <svg class="h-4 w-4 stroke-current">
-               <use href="assets/icons.svg#arrow-up"></use>
+            <svg class="size-4 stroke-current">
+               <use href="./assets/icons.svg#arrow-up" />
             </svg>
          `,
 		},
@@ -413,8 +413,8 @@ export default [
 		{
 			keyId: 'ShiftRight',
 			mainCharacter: /* html */ `
-         <svg class="h-4 w-4 stroke-current">
-         <use href="assets/icons.svg#arrow-up"></use>
+         <svg class="size-4 stroke-current">
+         <use href="./assets/icons.svg#arrow-up" />
          </svg>
          `,
 			extraClasses: ['w-[155px]', 'justify-center'],
@@ -422,12 +422,12 @@ export default [
 		},
 	],
 
-	// row 6
+	// Row 6
 	[
 		{
 			keyId: 'ControlLeft',
 			mainCharacter: 'ctrl',
-			extraClasses: ['rounded-bl-[inherit]'],
+			extraClasses: ['rounded-bl-inherit'],
 		},
 		{
 			keyId: 'Fn',
@@ -444,7 +444,7 @@ export default [
 			extraClasses: ['[&>*:first-child]:hidden'],
 			extraCharacterMarkup: /* html */ `
             <svg class="h-6 w-6 fill-current stroke-current">
-               <use href="assets/icons.svg#windows-logo"></use>
+               <use href="./assets/icons.svg#windows-logo" />
             </svg>
          `,
 		},
@@ -465,7 +465,7 @@ export default [
 		{
 			keyId: 'ControlRight',
 			mainCharacter: 'ctrl',
-			extraClasses: ['min-w-[75px]'],
+			extraClasses: ['min-w-18.75'],
 		},
 		{
 			keyId: 'ArrowLeft',
@@ -473,8 +473,8 @@ export default [
 			extraAttribute: ['title="arrow left"'],
 			extraClasses: ['[&>*:first-child]:hidden'],
 			extraCharacterMarkup: /* html */ `
-            <svg class="h-4 w-4 stroke-current">
-               <use href="assets/icons.svg#caret-left"></use>
+            <svg class="size-4 stroke-current">
+               <use href="./assets/icons.svg#caret-left" />
             </svg>
          `,
 		},
@@ -482,281 +482,12 @@ export default [
 			keyId: 'ArrowRight',
 			mainCharacter: '',
 			extraAttribute: ['title="arrow right"'],
-			extraClasses: ['rounded-br-[inherit]', '[&>*:first-child]:hidden'],
+			extraClasses: ['rounded-br-inherit', '[&>*:first-child]:hidden'],
 			extraCharacterMarkup: /* html */ `
-            <svg class="h-4 w-4 stroke-current">
-               <use href="assets/icons.svg#caret-right"></use>
+            <svg class="size-4 stroke-current">
+               <use href="./assets/icons.svg#caret-right" />
             </svg>
          `,
 		},
 	],
 ];
-
-/* 
-   <!-- row 1 -->
-   <div class="flex h-[30px] gap-1.5 rounded-t-[inherit]">
-      <button type="button" class="key min-w-fit basis-full rounded-tl-[inherit]">esc</button>
-      <button type="button" class="key min-w-fit basis-full">f1</button>
-      <button type="button" class="key min-w-fit basis-full">f2</button>
-      <button type="button" class="key min-w-fit basis-full">
-         <span>f3</span>
-         <svg class="h-4 w-4 rounded border fill-current p-px">
-            <use href="assets/icons.svg#moon"></use>
-         </svg>
-      </button>
-      <button type="button" class="key min-w-fit basis-full">
-         <span>f4</span>
-         <svg class="h-4 w-4 rounded border fill-current">
-            <use href="assets/icons.svg#screen-share"></use>
-         </svg>
-      </button>
-      <button type="button" class="key min-w-fit basis-full">f5</button>
-      <button type="button" class="key min-w-fit basis-full">
-         <span>f6</span>
-         <svg class="h-4 w-4 rounded border stroke-current">
-            <use href="assets/icons.svg#speaker-low"></use>
-         </svg>
-      </button>
-      <button type="button" class="key min-w-fit basis-full">
-         <span>f7</span>
-         <svg class="h-4 w-4 rounded border stroke-current">
-            <use href="assets/icons.svg#speaker-on"></use>
-         </svg>
-      </button>
-      <button type="button" class="key min-w-fit basis-full">
-         <span>f8</span>
-         <svg class="h-4 w-4 rounded border fill-current p-px">
-            <use href="assets/icons.svg#microphone-muted"></use>
-         </svg>
-      </button>
-      <button type="button" class="key min-w-fit basis-full">
-         <span>f9</span>
-         <svg class="h-4 w-4 rounded border stroke-current p-px">
-            <use href="assets/icons.svg#sun-small"></use>
-         </svg>
-      </button>
-      <button type="button" class="key min-w-fit basis-full">
-         <span>f10</span>
-         <svg class="h-4 w-4 rounded border stroke-current p-px">
-            <use href="assets/icons.svg#sun-big"></use>
-         </svg>
-      </button>
-      <button type="button" class="key min-w-fit basis-full">f11</button>
-      <button type="button" class="key min-w-fit basis-full">f12</button>
-      <button type="button" class="key min-w-fit basis-full">insert</button>
-      <button type="button" class="key min-w-fit basis-full rounded-tr-[inherit]">delete</button>
-   </div>
-
-   <!-- row 2 -->
-   <div class="flex h-[60px] gap-1.5">
-      <button type="button" class="key key--double-characters w-[40px] min-w-fit">
-         <span>`</span>
-         <span>~</span>
-      </button>
-      <button type="button" class="key key--double-characters">
-         <span>1</span>
-         <span>!</span>
-      </button>
-      <button type="button" class="key key--double-characters">
-         <span>2</span>
-         <span>@</span>
-      </button>
-      <button type="button" class="key key--double-characters">
-         <span>3</span>
-         <span>#</span>
-      </button>
-      <button type="button" class="key key--double-characters">
-         <span>4</span>
-         <span>$</span>
-      </button>
-      <button type="button" class="key key--double-characters">
-         <span>5</span>
-         <span>%</span>
-      </button>
-      <button type="button" class="key key--double-characters">
-         <span>6</span>
-         <span>^</span>
-      </button>
-      <button type="button" class="key key--double-characters">
-         <span>7</span>
-         <span>&amp;</span>
-      </button>
-      <button type="button" class="key key--double-characters">
-         <span>8</span>
-         <span>*</span>
-      </button>
-      <button type="button" class="key key--double-characters">
-         <span>9</span>
-         <span>(</span>
-      </button>
-      <button type="button" class="key key--double-characters">
-         <span>0</span>
-         <span>)</span>
-      </button>
-      <button type="button" class="key key--double-characters">
-         <span class="mt-2">-</span>
-         <span class="-mt-3">_</span>
-      </button>
-      <button type="button" class="key key--double-characters">
-         <span>=</span>
-         <span>+</span>
-      </button>
-      <button type="button" class="key w-[109px] flex-col">
-         <span>backspace</span>
-         <svg class="h-4 w-4 stroke-current">
-            <use href="assets/icons.svg#arrow-left"></use>
-         </svg>
-      </button>
-   </div>
-
-   <!-- row 3 -->
-   <div class="flex h-[60px] gap-1.5">
-      <button type="button" class="key min-w-[75px]">
-         <span>tab</span>
-         <div>
-            <svg class="h-4 w-4 stroke-current">
-               <use href="assets/icons.svg#tab-arrow-left"></use>
-            </svg>
-            <svg class="h-4 w-4 stroke-current">
-               <use href="assets/icons.svg#tab-arrow-right"></use>
-            </svg>
-         </div>
-      </button>
-      <button type="button" class="key">Q</button>
-      <button type="button" class="key">W</button>
-      <button type="button" class="key">E</button>
-      <button type="button" class="key">R</button>
-      <button type="button" class="key">T</button>
-      <button type="button" class="key">Y</button>
-      <button type="button" class="key">U</button>
-      <button type="button" class="key">I</button>
-      <button type="button" class="key">O</button>
-      <button type="button" class="key">P</button>
-      <button type="button" class="key key--double-characters">
-         <span>[</span>
-         <span>{</span>
-      </button>
-      <button type="button" class="key key--double-characters">
-         <span>]</span>
-         <span>}</span>
-      </button>
-      <button type="button" class="key key--double-characters w-[74px]">
-         <span>\</span>
-         <span>|</span>
-      </button>
-   </div>
-
-   <!-- row 4 -->
-   <div class="flex h-[60px] gap-1.5">
-      <button type="button" class="key min-w-[95px]">
-         <span>caps lock</span>
-         <span class="relative top-0.5 h-1 w-1 rounded-full bg-[#252525]" id="capsLockLight"></span>
-      </button>
-      <button type="button" class="key">A</button>
-      <button type="button" class="key">S</button>
-      <button type="button" class="key">D</button>
-      <button type="button" class="key">F</button>
-      <button type="button" class="key">G</button>
-      <button type="button" class="key">H</button>
-      <button type="button" class="key">J</button>
-      <button type="button" class="key">K</button>
-      <button type="button" class="key">L</button>
-      <button type="button" class="key key--double-characters">
-         <span>;</span>
-         <span>:</span>
-      </button>
-      <button type="button" class="key key--double-characters">
-         <span>&apos;</span>
-         <span class="mt-3">&quot;</span>
-      </button>
-      <button type="button" class="key w-[120px] flex-col">
-         <span>enter</span>
-         <svg class="relative -top-0.5 h-4 w-4 stroke-current">
-            <use href="assets/icons.svg#enter-arrow-curve-left"></use>
-         </svg>
-      </button>
-   </div>
-
-   <!-- row 5 -->
-   <div class="flex h-[60px] gap-1.5">
-      <button type="button" class="key min-w-[126px] justify-center">
-         <span>shift</span>
-         <svg class="h-4 w-4 stroke-current">
-            <use href="assets/icons.svg#arrow-up"></use>
-         </svg>
-      </button>
-      <button type="button" class="key">Z</button>
-      <button type="button" class="key">X</button>
-      <button type="button" class="key">C</button>
-      <button type="button" class="key">V</button>
-      <button type="button" class="key">B</button>
-      <button type="button" class="key">N</button>
-      <button type="button" class="key">M</button>
-      <button type="button" class="key key--double-characters">
-         <span>,</span>
-         <span>&lt;</span>
-      </button>
-      <button type="button" class="key key--double-characters">
-         <span>.</span>
-         <span>&gt;</span>
-      </button>
-      <button type="button" class="key key--double-characters">
-         <span>/</span>
-         <span>?</span>
-      </button>
-      <button type="button" class="key w-[155px] justify-center">
-         <svg class="h-4 w-4 stroke-current">
-            <use href="assets/icons.svg#arrow-up"></use>
-         </svg>
-         <span>shift</span>
-      </button>
-   </div>
-
-   <!-- row 6 -->
-   <div class="flex h-[60px] gap-1.5 rounded-b-[inherit]">
-      <button type="button" class="key rounded-bl-[inherit]">ctrl</button>
-      <button type="button" class="key [&>*:first-child]:hidden">
-         <span></span>
-         <span class="flex h-5 w-5 items-center justify-center rounded border">fn</span>
-      </button>
-      <button type="button" aria-label="Windows logo key" class="key [&>*:first-child]:hidden">
-         <span></span>
-         <svg class="h-6 w-6 fill-current stroke-current">
-            <use href="assets/icons.svg#windows-logo"></use>
-         </svg>
-      </button>
-      <button type="button" class="key">alt</button>
-      <button type="button" title="space" class="key min-w-[324px]"></button>
-      <button type="button" class="key">alt</button>
-      <button type="button" class="key min-w-[75px]">ctrl</button>
-      <button type="button" title="arrow left" class="key [&>*:first-child]:hidden">
-         <span></span>
-         <svg class="h-4 w-4 stroke-current">
-            <use href="assets/icons.svg#caret-left"></use>
-         </svg>
-      </button>
-      <div class="flex min-w-[75px] flex-col gap-1">
-         <button type="button" title="arrow up" class="key flex-grow [&>*:first-child]:hidden">
-            <span></span>
-            <svg class="h-4 w-4 stroke-current">
-               <use href="assets/icons.svg#caret-up"></use>
-            </svg>
-         </button>
-         <button type="button" title="arrow down" class="key flex-grow [&>*:first-child]:hidden">
-            <span></span>
-            <svg class="h-4 w-4 stroke-current">
-               <use href="assets/icons.svg#caret-down"></use>
-            </svg>
-         </button>
-      </div>
-      <button
-         type="button"
-         title="arrow right"
-         class="key rounded-br-[inherit] [&>*:first-child]:hidden">
-         <span></span>
-         <svg class="h-4 w-4 stroke-current">
-            <use href="assets/icons.svg#caret-right"></use>
-         </svg>
-      </button>
-   </div>
-*/
