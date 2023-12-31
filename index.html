@@ -119,10 +119,9 @@
 					inert
 					class="flex min-h-[418px] select-none overflow-auto rounded-2xl bg-turquoise p-3.5 duration-500 dark:bg-zinc-900">
 					<!-- Keyboard keypress audio -->
-					<audio id="keySound" preload="auto">
+					<audio hidden aria-hidden="true" id="keySound" preload="auto">
 						<source src="./assets/audios/keypress-sound.wav" type="audio/wav" />
-						<source src="./assets/audios/keypress-sound.mp3" type="audio/mpeg" />
-						Your browser does not supprot the audio element.
+						<source src="./assets/audios/keypress-sound.mp3" type="audio/mp3" />
 					</audio>
 
 					<div id="keyboard" class="flex flex-col gap-3 rounded-inherit"></div>
