@@ -1,18 +1,18 @@
-import keys from './modules/keyboard-keys-data.mjs'; // importing data for keyboard keys
-import generateKeyboardKeys from './modules/keyboard-keys-generator.mjs'; // importing function to generate keyboard keys
-import determineAndApplyTheme from './modules/theme-handler.mjs'; // importing theme handling function
+import keys from './modules/keyboard-keys-data.mjs';
+import determineAndApplyTheme from './modules/theme-handler.mjs';
+import generateKeyboardKeys from './modules/keyboard-keys-generator.mjs';
 
-// global variables
+// Global variables
 let soundIsOn = true;
-const typingSound = soundIsOn && document.getElementById('keySound');
-const textarea = document.getElementById('textarea');
+const typingSound = soundIsOn && document.getElementById('keypress_sound');
+const textBox = document.getElementById('text_box');
 const keyboard = document.getElementById('keyboard');
 
-// global functions
-const focusOnTextarea = () => textarea.focus();
+// Global functions
+const focusOnTextarea = () => textBox.focus();
 
 const detectCapsLockState = event => {
-	const capsLockLight = document.getElementById('capsLockLight');
+	const capsLockLight = document.getElementById('caps_lock_light');
 	capsLockLight.classList.toggle('capslock-light', event.getModifierState('CapsLock'));
 };
 
@@ -21,15 +21,15 @@ const detectDeviceAndDisplayWarn = () => {
 	const deviceIsDesktop = !(/Mobi|Android/i.test(deviceInfo) || /iPhone|iPad|iPod/i.test(deviceInfo));
 	if (deviceIsDesktop) return;
 
-	const warningModal = document.getElementById('warningModal');
+	const warningModal = document.getElementById('warning_modal');
 	warningModal.showModal();
-	document.getElementById('closeModalBtn').addEventListener('click', () => warningModal.close(), { once: true });
+	document.getElementById('close_modal_btn').addEventListener('click', () => warningModal.close(), { once: true });
 };
 
 const simulateTyping = event => {
 	const { target, type, key, code } = event;
 	const getKeyId = key => {
-		/* mapping key codes to key ids */
+		// Map key codes to key IDs
 		if (/-|_/.test(key)) return 'Minus';
 		if (/'|"/.test(key)) return 'Quote';
 		if (/=|\+/.test(key)) return 'Equal';
@@ -42,7 +42,7 @@ const simulateTyping = event => {
 		if (/]|}/.test(key)) return 'BracketRight';
 		if (/\[|{/.test(key)) return 'BracketLeft';
 		if (/^\d$/.test(key)) return `Digit${key}`;
-		if (/^[a-zA-Z]{1}$/.test(key)) return `key${key.toUpperCase()}`;
+		if (/^[a-zA-Z]{1}$/.test(key)) return `Key${key.toUpperCase()}`;
 		if (/^(?!F5$|F11$|F12$)F\d+$/.test(key)) {
 			event.preventDefault();
 			return `F${key.slice(1)}`;
@@ -65,7 +65,7 @@ const simulateTyping = event => {
 		if (soundIsOn) typingSound.play();
 		focusOnTextarea();
 
-		if (target.closest('#fnKeysRow')) return;
+		if (target.closest('#fn_keys_row')) return;
 
 		const keyCharacter = key.querySelector('span').textContent.trim();
 		switch (keyCharacter) {
@@ -83,7 +83,7 @@ const simulateTyping = event => {
 				break;
 			}
 			case 'caps lock': {
-				document.getElementById('capsLockLight').classList.toggle('capslock-light');
+				document.getElementById('caps_lock_light').classList.toggle('capslock-light');
 				break;
 			}
 			case 'enter': {
@@ -107,55 +107,52 @@ const simulateTyping = event => {
 	}
 };
 
-// app initialization
+// Initialize app
 document.addEventListener('DOMContentLoaded', () => {
 	generateKeyboardKeys(keyboard, keys);
-
 	determineAndApplyTheme();
-
 	detectDeviceAndDisplayWarn();
-
 	focusOnTextarea();
 
-	// registering Service Worker
+	// Register the Service Worker
 	navigator.serviceWorker.register('./assets/js/modules/service-worker-PWA.mjs'); // URL from the project root
 });
 
-// handling events
+// Event handling
 {
-	// clearing textarea
-	document.getElementById('clearTextareaBtn').addEventListener('click', () => {
+	// Clear text box
+	document.getElementById('clear_text_box_btn').addEventListener('click', () => {
 		textarea.value = '';
 		focusOnTextarea();
 	});
 
-	// changing the theme
+	// Change the theme
 	matchMedia('(prefers-color-scheme: dark)').addEventListener('change', ({ matches }) => {
 		determineAndApplyTheme(matches);
 	});
 
-	document.getElementById('changeThemeBtn').addEventListener('click', () => {
+	document.getElementById('change_theme_btn').addEventListener('click', () => {
 		const changedTheme = localStorage.getItem('theme') === 'dark' ? 'light' : 'dark';
 		determineAndApplyTheme(changedTheme);
 	});
 
-	// changing sound mode
-	document.getElementById('soundBtn').addEventListener('click', () => {
-		const soundState = document.getElementById('soundState');
+	// Change sound mode
+	document.getElementById('sound_btn').addEventListener('click', () => {
+		const soundState = document.getElementById('sound_state');
 		const sound = soundState.textContent.toLowerCase() === 'on' ? 'off' : 'on';
 
-		// change souond state
+		// Update souond state
 		soundIsOn = !soundIsOn;
 		soundState.textContent = sound;
 
-		// change speaker icon
-		document.getElementById('speakerIcon').href.baseVal = `assets/icons.svg#speaker-${sound}`;
+		// Update speaker icon
+		document.getElementById('speaker_icon').href.baseVal = `./assets/icons.svg#speaker_${sound}`;
 	});
 
-	// detecting caps lock state
-	textarea.addEventListener('click', detectCapsLockState);
+	// Detect caps lock state
+	textBox.addEventListener('click', detectCapsLockState);
 
-	// simulating virtual typing
+	// Simulate virtual typing
 	['click', 'keydown'].forEach(event => window.addEventListener(event, simulateTyping));
 	window.addEventListener('keyup', () => document.querySelector('.key--pressed')?.classList.remove('key--pressed'));
 }
