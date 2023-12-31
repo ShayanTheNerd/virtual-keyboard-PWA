@@ -31,8 +31,10 @@ export default function generateKeyboardKeys(keyboard, keys) {
             </svg>
          </button>
          <button type="button" tabindex="-1" title="Arrow down" id="arrow_down" class="key flex-grow [&>*:first-child]:hidden">
-         <button type="button" title="arrow down" id="arrow_down" class="key flex-grow [&>*:first-child]:hidden">
             <span></span>
+            <svg class="size-4 stroke-current">
+               <use href="assets/icons.svg#caret_down"></use>
+            </svg>
          </button>
       </div>
    `;
