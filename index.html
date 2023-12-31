@@ -8,7 +8,7 @@
 
 		<meta name="author" content="Shayan Zamani" />
 		<meta name="color-scheme" content="light dark" />
-		<meta name="theme-color" content="#d4d4d8" id="themeColorMetaTag" />
+		<meta name="theme-color" content="#d4d4d8" id="theme_color_meta_tag" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 		<meta name="keywords" content="virtual keyboard progressive web app, online keyboard, virtual typing, experience virtual typing, pwa, progressive web app" />
 
@@ -50,25 +50,25 @@
 		class="bg-zinc-300-to-400 dark:bg-zinc-400-to-500 relative flex h-full min-h-screen flex-col items-center bg-zinc-300 p-3 pb-12 text-zinc-100 duration-500 supports-[min-height:100dvh]:min-h-dvh lg:justify-center dark:bg-zinc-400">
 		<!-- Non-desktop device warning modal -->
 		<dialog
-			id="warningModal"
+			id="warning_modal"
 			class="fixed z-50 hidden w-11/12 max-w-xs flex-col items-center justify-center gap-4 rounded-lg border-4 border-turquoise bg-charcoal p-4 text-center text-xl leading-8 text-inherit backdrop:bg-[#000000bf] open:flex">
 			<strong>Please preview website on a desktop.</strong>
-			<button type="button" id="closeModalBtn" class="rounded-lg bg-turquoise px-14 py-2.5 font-medium">OK</button>
+			<button type="button" id="close_modal_btn" class="rounded-lg bg-turquoise px-14 py-2.5 font-medium">OK</button>
 		</dialog>
 
-		<main class="xl:min-w-244 xl:max-w-fit max-w-244 flex w-full flex-col space-y-4 lg:space-y-6">
+		<main class="xl:min-w-244 xl:max-w-fit flex w-full max-w-244 flex-col space-y-4 lg:space-y-6">
 			<h1 class="mb-2 text-center text-2xl font-bold tracking-wider text-turquoise duration-500 dark:text-charcoal">
 				Virtual Keyboard
 				<abbr title="Progressive Web App">PWA</abbr>
 			</h1>
 
 			<section class="space-y-4 lg:flex lg:justify-evenly lg:space-y-0">
-				<!-- Textbox -->
+				<!-- Text box -->
 				<div
 					class="h-24 w-full overflow-hidden rounded-xl shadow focus-within:shadow-md lg:h-[124px] lg:max-w-2xl dark:focus-within:shadow-lg">
 					<textarea
 						autofocus
-						id="textarea"
+						id="text_box"
 						rows="3"
 						autocomplete="off"
 						placeholder="Strat typing..."
@@ -80,23 +80,23 @@
 					<!-- Clear button -->
 					<button
 						type="button"
-						id="clearTextareaBtn"
+						id="clear_text_box_btn"
 						class="btn bg-red-500 hover:bg-red-600 focus-visible:outline-red-500 lg:place-self-end dark:bg-red-600 dark:hover:bg-red-700">
 						<span class="w-2/3">Clear</span>
 						<svg class="h-6 w-6 fill-current">
-							<use href="./assets/icons.svg#close-x"></use>
+							<use href="./assets/icons.svg#close_x"></use>
 						</svg>
 					</button>
 
 					<!-- Sound button -->
 					<button
 						type="button"
-						id="soundBtn"
+						id="sound_btn"
 						title="sound"
 						class="btn bg-blue-500 hover:bg-blue-600 focus-visible:outline-blue-500 lg:place-self-start dark:bg-blue-600 dark:hover:bg-blue-700">
-						<span class="w-2/3" id="soundState">On</span>
+						<span class="w-2/3" id="sound_state">On</span>
 						<svg class="size-5.75 stroke-current">
-							<use href="./assets/icons.svg#speaker-on" id="speakerIcon"></use>
+							<use href="./assets/icons.svg#speaker_on" id="speaker_icon"></use>
 						</svg>
 					</button>
 
@@ -104,10 +104,10 @@
 					<button
 						type="button"
 						title="theme"
-						id="changeThemeBtn"
-						class="ripple-effect basis-22.5 duration-250 focus-visible:rounded-px lg:h-12.5 lg:min-w-25 h-11 shrink-0 hover:scale-105 focus-visible:outline-turquoise lg:col-start-2 lg:row-start-1 lg:row-end-3 lg:w-min dark:focus-visible:outline-charcoal">
-						<svg class="lg:h-12.5 size-full">
-							<use href="./assets/icons.svg#keyboard-light" id="themeIcon"></use>
+						id="change_theme_btn"
+						class="ripple-effect h-11 shrink-0 basis-22.5 duration-250 hover:scale-105 focus-visible:rounded-px focus-visible:outline-turquoise lg:col-start-2 lg:row-start-1 lg:row-end-3 lg:h-12.5 lg:w-min lg:min-w-25 dark:focus-visible:outline-charcoal">
+						<svg class="size-full lg:h-12.5">
+							<use href="./assets/icons.svg#keyboard_light" id="theme_icon"></use>
 						</svg>
 					</button>
 				</aside>
@@ -119,7 +119,7 @@
 					inert
 					class="flex min-h-[418px] select-none overflow-auto rounded-2xl bg-turquoise p-3.5 duration-500 dark:bg-zinc-900">
 					<!-- Keyboard keypress audio -->
-					<audio hidden aria-hidden="true" id="keySound" preload="auto">
+					<audio hidden aria-hidden="true" id="keypress_sound" preload="auto">
 						<source src="./assets/audios/keypress-sound.wav" type="audio/wav" />
 						<source src="./assets/audios/keypress-sound.mp3" type="audio/mp3" />
 					</audio>

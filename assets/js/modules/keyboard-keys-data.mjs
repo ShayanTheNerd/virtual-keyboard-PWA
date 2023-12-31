@@ -32,7 +32,7 @@ export default [
 			extraClasses: ['min-w-fit', 'basis-full'],
 			extraCharacterMarkup: /* html */ `
             <svg class="size-4 rounded border fill-current">
-               <use href="./assets/icons.svg#screen-share" />
+               <use href="./assets/icons.svg#screen_share" />
             </svg>
          `,
 		},
@@ -47,7 +47,7 @@ export default [
 			extraClasses: ['min-w-fit', 'basis-full'],
 			extraCharacterMarkup: /* html */ `
             <svg class="size-4 rounded border stroke-current">
-               <use href="./assets/icons.svg#speaker-low" />
+               <use href="./assets/icons.svg#speaker_low" />
             </svg>
          `,
 		},
@@ -57,7 +57,7 @@ export default [
 			extraClasses: ['min-w-fit', 'basis-full'],
 			extraCharacterMarkup: /* html */ `
             <svg class="size-4 rounded border stroke-current">
-               <use href="./assets/icons.svg#speaker-on" />
+               <use href="./assets/icons.svg#speaker_on" />
             </svg>
          `,
 		},
@@ -67,7 +67,7 @@ export default [
 			extraClasses: ['min-w-fit', 'basis-full'],
 			extraCharacterMarkup: /* html */ `
             <svg class="size-4 rounded border fill-current p-px">
-               <use href="./assets/icons.svg#microphone-muted" />
+               <use href="./assets/icons.svg#microphone_muted" />
             </svg>
          `,
 		},
@@ -77,7 +77,7 @@ export default [
 			extraClasses: ['min-w-fit', 'basis-full'],
 			extraCharacterMarkup: /* html */ `
             <svg class="size-4 rounded border stroke-current p-px">
-               <use href="./assets/icons.svg#sun-small" />
+               <use href="./assets/icons.svg#sun_small" />
             </svg>
          `,
 		},
@@ -87,7 +87,7 @@ export default [
 			extraClasses: ['min-w-fit', 'basis-full'],
 			extraCharacterMarkup: /* html */ `
             <svg class="size-4 rounded border stroke-current p-px">
-               <use href="./assets/icons.svg#sun-big" />
+               <use href="./assets/icons.svg#sun_big" />
             </svg>
          `,
 		},
@@ -199,7 +199,7 @@ export default [
 			extraClasses: ['w-[109px]', 'flex-col'],
 			extraCharacterMarkup: /* html */ `
             <svg class="size-4 stroke-current">
-               <use href="./assets/icons.svg#arrow-left" />
+               <use href="./assets/icons.svg#arrow_left" />
             </svg>
          `,
 		},
@@ -214,52 +214,52 @@ export default [
 			extraCharacterMarkup: /* html */ `
             <div>
                <svg class="size-4 stroke-current">
-                  <use href="./assets/icons.svg#tab-arrow-left" />
+                  <use href="./assets/icons.svg#tab_arrow_left" />
                </svg>
                <svg class="size-4 stroke-current">
-                  <use href="./assets/icons.svg#tab-arrow-right" />
+                  <use href="./assets/icons.svg#tab_arrow_right" />
                </svg>
             </div>
          `,
 		},
 		{
-			keyId: 'keyQ',
+			keyId: 'KeyQ',
 			mainCharacter: 'Q',
 		},
 		{
-			keyId: 'keyW',
+			keyId: 'KeyW',
 			mainCharacter: 'W',
 		},
 		{
-			keyId: 'keyE',
+			keyId: 'KeyE',
 			mainCharacter: 'E',
 		},
 		{
-			keyId: 'keyR',
+			keyId: 'KeyR',
 			mainCharacter: 'R',
 		},
 		{
-			keyId: 'keyT',
+			keyId: 'KeyT',
 			mainCharacter: 'T',
 		},
 		{
-			keyId: 'keyY',
+			keyId: 'KeyY',
 			mainCharacter: 'Y',
 		},
 		{
-			keyId: 'keyU',
+			keyId: 'KeyU',
 			mainCharacter: 'U',
 		},
 		{
-			keyId: 'keyI',
+			keyId: 'KeyI',
 			mainCharacter: 'I',
 		},
 		{
-			keyId: 'keyO',
+			keyId: 'KeyO',
 			mainCharacter: 'O',
 		},
 		{
-			keyId: 'keyP',
+			keyId: 'KeyP',
 			mainCharacter: 'P',
 		},
 		{
@@ -289,43 +289,43 @@ export default [
 			mainCharacter: 'caps lock',
 			extraClasses: ['min-w-[95px]'],
 			extraCharacterMarkup: /* html */ `
-            <span class="relative top-0.5 h-1 w-1 rounded-full bg-[#252525]" id="capsLockLight"></span>
+            <span id="caps_lock_light" class="relative top-0.5 h-1 w-1 rounded-full bg-[#252525]"></span>
          `,
 		},
 		{
-			keyId: 'keyA',
+			keyId: 'KeyA',
 			mainCharacter: 'A',
 		},
 		{
-			keyId: 'keyS',
+			keyId: 'KeyS',
 			mainCharacter: 'S',
 		},
 		{
-			keyId: 'keyD',
+			keyId: 'KeyD',
 			mainCharacter: 'D',
 		},
 		{
-			keyId: 'keyF',
+			keyId: 'KeyF',
 			mainCharacter: 'F',
 		},
 		{
-			keyId: 'keyG',
+			keyId: 'KeyG',
 			mainCharacter: 'G',
 		},
 		{
-			keyId: 'keyH',
+			keyId: 'KeyH',
 			mainCharacter: 'H',
 		},
 		{
-			keyId: 'keyJ',
+			keyId: 'KeyJ',
 			mainCharacter: 'J',
 		},
 		{
-			keyId: 'keyK',
+			keyId: 'KeyK',
 			mainCharacter: 'K',
 		},
 		{
-			keyId: 'keyL',
+			keyId: 'KeyL',
 			mainCharacter: 'L',
 		},
 		{
@@ -346,7 +346,7 @@ export default [
 			extraClasses: ['w-[120px]', 'flex-col'],
 			extraCharacterMarkup: /* html */ `
             <svg class="relative -top-0.5 size-4 stroke-current">
-               <use href="./assets/icons.svg#enter-arrow-curve-left" />
+               <use href="./assets/icons.svg#enter_arrow_curve_left" />
             </svg>
          `,
 		},
@@ -360,36 +360,36 @@ export default [
 			extraClasses: ['min-w-[126px]', 'justify-center'],
 			extraCharacterMarkup: /* html */ `
             <svg class="size-4 stroke-current">
-               <use href="./assets/icons.svg#arrow-up" />
+               <use href="./assets/icons.svg#arrow_up" />
             </svg>
          `,
 		},
 		{
-			keyId: 'keyZ',
+			keyId: 'KeyZ',
 			mainCharacter: 'Z',
 		},
 		{
-			keyId: 'keyX',
+			keyId: 'KeyX',
 			mainCharacter: 'X',
 		},
 		{
-			keyId: 'keyC',
+			keyId: 'KeyC',
 			mainCharacter: 'C',
 		},
 		{
-			keyId: 'keyV',
+			keyId: 'KeyV',
 			mainCharacter: 'V',
 		},
 		{
-			keyId: 'keyB',
+			keyId: 'KeyB',
 			mainCharacter: 'B',
 		},
 		{
-			keyId: 'keyN',
+			keyId: 'KeyN',
 			mainCharacter: 'N',
 		},
 		{
-			keyId: 'keyM',
+			keyId: 'KeyM',
 			mainCharacter: 'M',
 		},
 		{
@@ -414,7 +414,7 @@ export default [
 			keyId: 'ShiftRight',
 			mainCharacter: /* html */ `
          <svg class="size-4 stroke-current">
-         <use href="./assets/icons.svg#arrow-up" />
+         <use href="./assets/icons.svg#arrow_up" />
          </svg>
          `,
 			extraClasses: ['w-[155px]', 'justify-center'],
@@ -444,7 +444,7 @@ export default [
 			extraClasses: ['[&>*:first-child]:hidden'],
 			extraCharacterMarkup: /* html */ `
             <svg class="h-6 w-6 fill-current stroke-current">
-               <use href="./assets/icons.svg#windows-logo" />
+               <use href="./assets/icons.svg#windows_logo" />
             </svg>
          `,
 		},
@@ -474,7 +474,7 @@ export default [
 			extraClasses: ['[&>*:first-child]:hidden'],
 			extraCharacterMarkup: /* html */ `
             <svg class="size-4 stroke-current">
-               <use href="./assets/icons.svg#caret-left" />
+               <use href="./assets/icons.svg#caret_left" />
             </svg>
          `,
 		},
@@ -485,7 +485,7 @@ export default [
 			extraClasses: ['rounded-br-inherit', '[&>*:first-child]:hidden'],
 			extraCharacterMarkup: /* html */ `
             <svg class="size-4 stroke-current">
-               <use href="./assets/icons.svg#caret-right" />
+               <use href="./assets/icons.svg#caret_right" />
             </svg>
          `,
 		},
