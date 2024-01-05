@@ -1,8 +1,11 @@
 <h1>Virtual Keyboard PWA</h1>
 
-<p>
-   Virtual Keyboard Progressive Web App allows you to experience virtual typing.
-</p>
+<blockquote>
+   <p>
+      An elegant virtual keyboard web app with typing animation and keypress sound effect.
+   </p>
+</blockquote>
+
 <figure>
    <img src="https://github.com/ShayanTheNerd/virtual-keyboard-PWA/blob/main/og-img.webp" alt="Virtual Keyboard PWA preview" />
 </figure>
@@ -11,10 +14,10 @@
 <h3>The challenge</h3>
 <p>Users should be able to:</p>
 <ul>
-   <li>Recieve a firendly warning if they're previweing website on a non-desktop device (mobile, tablet, etc.).</li>
-   <li>Have the theme match up with their system preference or toggle it manually.</li>
-   <li>Hear a typing sound effect as they type, and also switch it off if they wish.</li>
-   <li>Install the website just like a native app and use it even offline!</li>
+   <li>Receive a firendly warning if they're previweing website on a non-desktop device</li>
+   <li>Have the theme match up with their system preference and toggle it manually</li>
+   <li>Hear a keyboard keypress sound effect as they type, and also switch it off if they wish</li>
+   <li>Install the website as a progressive web app (PWA) and use it offline</li>
 </ul>
 
 <h3>Links</h3>
@@ -48,10 +51,11 @@
 
 <h3>I learned:</h3>
 <ul>
-   <li>How to programatically play an audio file.</li>
-   <li>How PWAs work and how to implement one.</li>
-   <li>How to handle theme switching and also detect user's preferences.</li>
-   <li>How to dynamically generate keyboard keys while handling the many exceptions.</li>
+   <li>How PWAs work and how to implement one</li>
+   <li>How to detect caps lock state and react to it</li>
+   <li>How to simulate virtual typing by manipulating the text inside a text box</li>
+   <li>How to dynamically generate HTML fragments while also handling exceptions</li>
+   <li>How to handle theme switching (manually/automatically) and detecting user's preference</li>
 </ul>
 
 <h2>Development setup</h2>
@@ -83,7 +87,7 @@ pnpm i
 pnpm run dev
 ```
 
-<p>Now, you can preview the project on a local server of your choice. My personal recommendation is the <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Live Server Extension</a>.</p>
+<p>Now, you can preview the project on a local server of your choice. I recommend using the <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Live Server Extension</a>.</p>
 
 <h2>Deployment and production</h2>
 <p>Before deploying the project or creating a new pull request, run the following commands and make sure there are no errors:</p>
@@ -102,7 +106,7 @@ pnpm run build
    <li>Code based on the current libraries, frameworks, and packages included in the project.</li>
    <li>For styling, utilize Tailwind's features as much as possible, but also make sure to use <a href="https://getbem.com">BEM</a> methodology for naming custom CSS classes.</li>
    <li>In case you need to access an HTML element in JavaScript by a class name, prefix the class name with <code>js-</code>. For example, <code>js-submit-btn</code>.</li>
-   <li>Add Git commit messages considering <a href="https://www.conventionalcommits.org">Conventional Commits</a>.</li>
+   <li>Add Git commit messages considering <a href="https://conventional-emoji-commits.site/quick-summary/summary">Conventional Commits</a>.</li>
 </ul>
 
 <h2>Contribution</h2>
@@ -114,7 +118,7 @@ pnpm run build
    <li>Create your feature branch: <code>git checkout -b feature/branch-name</code>.</li>
    <li>Make sure to follow instructions in the <a href="https://github.com/ShayanTheNerd/virtual-keyboard-PWA#style-guide">style guide</a> section.</li>
    <li>Stage all changes you made: <code>git add -A</code>.</li>
-   <li>Commit all staged changes with a descriptive commit message: <code>git commit -m 'feat: add foo bar baz'</code>.</li>
+   <li>Commit all staged changes with a descriptive commit message: <code>git commit -m '✨ feat: add foo bar baz'</code>.</li>
    <li>Push everything to your feature branch: <code>git push origin feature/branch-name</code>.</li>
    <li>Create a new Pull Request.</li>
 </ol>
