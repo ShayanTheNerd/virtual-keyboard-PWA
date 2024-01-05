@@ -60,7 +60,7 @@
 		@apply ripple-effect z-10 flex h-11 flex-initial basis-22.5 items-center justify-center rounded-lg px-2 font-medium capitalize tracking-wide shadow duration-150 hover:shadow-sm lg:h-10 lg:min-w-25 lg:text-lg;
 	}
 
-	.capslock-light {
+	.caps-lock-light-on {
 		@apply !bg-blue-100 shadow-[0_0_3px_0_#dbeafe];
 	}
 

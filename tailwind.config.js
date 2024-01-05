@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 
 export default {
-	content: ['./index.html', './assets/js/app.js', './assets/js/modules/*.mjs'],
+	content: ['./index.html', './assets/js/*.js', './assets/js/modules/*.mjs'],
 	darkMode: ['class', '[data-theme="dark"]'],
 	future: { hoverOnlyWhenSupported: true },
 	theme: {
@@ -19,9 +19,6 @@ export default {
 			borderRadius: {
 				px: '1px',
 				inherit: 'inherit',
-			},
-			transitionDuration: {
-				250: '250ms',
 			},
 			height: {
 				12.5: '3.125rem' /* 50px */,
