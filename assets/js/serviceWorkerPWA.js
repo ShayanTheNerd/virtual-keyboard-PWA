@@ -1,5 +1,5 @@
 // Files to cache
-const CACHE_VERSION = '1.1.0';
+const CACHE_VERSION = '1.1.1';
 const appCacheName = `Virtual_Keyboard-v${CACHE_VERSION}`;
 const appContentToCache = [
 	'../../',
@@ -45,7 +45,7 @@ self.addEventListener('install', event => {
 self.addEventListener('fetch', event => {
 	/* prettier-ignore */
 	const { request, request: { url } } = event;
-	if (!url.startsWith(/http(|s):/g)) return; // only cache “http” and “https” protocols
+	if (!url.startsWith('https')) return;
 
 	const getCacehdContent = async () => {
 		const cachedContent = await caches.match(request);
