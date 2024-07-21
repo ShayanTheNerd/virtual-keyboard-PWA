@@ -1,5 +1,5 @@
 // Files to cache
-const CACHE_VERSION = '1.1.1';
+const CACHE_VERSION = '1.1.2';
 const appCacheName = `Virtual_Keyboard-v${CACHE_VERSION}`;
 const appContentToCache = [
 	'../../',
@@ -47,7 +47,7 @@ self.addEventListener('fetch', event => {
 	const { request, request: { url } } = event;
 	if (!url.startsWith('https')) return;
 
-	const getCacehdContent = async () => {
+	const getCachedContent = async () => {
 		const cachedContent = await caches.match(request);
 		if (cachedContent) return cachedContent;
 
@@ -57,5 +57,5 @@ self.addEventListener('fetch', event => {
 		return response;
 	};
 
-	event.respondWith(getCacehdContent());
+	event.respondWith(getCachedContent());
 });
